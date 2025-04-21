@@ -1,0 +1,10 @@
+trace: "eced9c29-7e9a-465b-a010-9bce57b16caa"
+
+{
+  "businessLegalName": "Neu Vue Optical",
+  "businessType": "Sole proprietorship",
+  "creditScore": 42,
+  "creditRiskLevel": "High",
+  "verificationStatus": "Completed",
+  "validatedBusinessEIN": "98-3423419"
+}

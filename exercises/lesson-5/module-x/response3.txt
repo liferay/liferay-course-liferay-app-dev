@@ -1,0 +1,10 @@
+trace: "f2271060-f4c4-4d89-8465-d1cfd26acb88"
+
+{
+  "businessLegalName": "Fab Frames Incorporated",
+  "businessType": "Corporation",
+  "creditScore": 65,
+  "creditRiskLevel": "Mid to Low",
+  "verificationStatus": "Completed",
+  "validatedBusinessEIN": "65-3984531"
+}
