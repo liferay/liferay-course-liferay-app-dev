@@ -1,0 +1,68 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.admin.rest.dto.v1_0.ObjectField",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "INSERT",
+			"onErrorFail": "false",
+			"updateStrategy": "UPDATE",
+			"externalReferenceCode": "D4B8_APPLICATION_EVALUATION"
+		},
+		"taskItemDelegateName": "DEFAULT"
+	},
+	"items": [
+		{
+			"DBType": "Long",
+			"businessType": "Attachment",
+			"externalReferenceCode": "ATTACHMENT",
+			"indexed": true,
+			"indexedAsKeyword": false,
+			"indexedLanguageId": "en_US",
+			"label": {
+				"en_US": "Attachment"
+			},
+			"name": "attachment",
+			"objectFieldSettings": [
+				{
+					"name": "acceptedFileExtensions",
+					"value": "jpeg, jpg, pdf, png"
+				},
+				{
+					"name": "fileSource",
+					"value": "userComputer"
+				},
+				{
+					"name": "maximumFileSize",
+					"value": 100
+				},
+				{
+					"name": "showFilesInDocumentsAndMedia",
+					"value": false
+				}
+			],
+			"readOnly": "false",
+			"required": false,
+			"state": false,
+			"system": false,
+			"type": "Long",
+			"unique": "false"
+		},
+		{
+			"DBType": "Clob",
+			"businessType": "LongText",
+			"externalReferenceCode": "RECOMMENDATION_COMMENTS",
+			"indexed": true,
+			"indexedAsKeyword": false,
+			"indexedLanguageId": "en_US",
+			"label": {
+				"en_US": "Recommendation Comments"
+			},
+			"name": "recommendationComments",
+			"readOnly": "false",
+			"required": false,
+			"state": false,
+			"system": false,
+			"type": "Clob"
+		}
+	]
+}

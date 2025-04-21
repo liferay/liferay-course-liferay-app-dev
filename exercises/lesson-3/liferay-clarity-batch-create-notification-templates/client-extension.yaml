@@ -1,0 +1,15 @@
+assemble:
+    - from: batch
+      into: batch
+liferay-clarity-batch-create-notification-templates:
+    name: Liferay Clarity Batch Create Notification Templates
+    oAuthApplicationHeadlessServer: liferay-clarity-batch-create-notification-templates-oauth-application-headless-server
+    type: batch
+liferay-clarity-batch-create-notification-templates-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Liferay Clarity Batch Create Notification Templates OAuth Application Headless Server
+    scopes:
+        - Liferay.Headless.Batch.Engine.everything
+        - Liferay.Notification.REST.everything
+    type: oAuthApplicationHeadlessServer

@@ -1,0 +1,70 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.admin.rest.dto.v1_0.ObjectField",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "INSERT",
+			"onErrorFail": "false",
+			"updateStrategy": "UPDATE",
+			"externalReferenceCode": "D4B8_APPLICATION_EVALUATION"
+		},
+		"taskItemDelegateName": "DEFAULT"
+	},
+	"items": [
+		
+		{
+			"DBType": "String",
+			"businessType": "Picklist",
+			"externalReferenceCode": "ASSESSMENT_SCORES",
+			"indexed": true,
+			"indexedAsKeyword": false,
+			"indexedLanguageId": "en_US",
+			"label": {
+				"en_US": "Assessment Score"
+			},
+			"listTypeDefinitionExternalReferenceCode": "ASSESSMENT_SCORES",
+			"name": "assessmentScore",
+			"readOnly": "false",
+			"required": false,
+			"state": false,
+			"system": false,
+			"type": "String"
+		},
+		{
+			"DBType": "String",
+			"businessType": "Picklist",
+			"externalReferenceCode": "DECISIONS",
+			"indexed": true,
+			"indexedAsKeyword": false,
+			"indexedLanguageId": "en_US",
+			"label": {
+				"en_US": "Decisions"
+			},
+			"listTypeDefinitionExternalReferenceCode": "DECISIONS",
+			"name": "decision",
+			"readOnly": "false",
+			"required": false,
+			"state": false,
+			"system": false,
+			"type": "String"
+		},
+		{
+			"DBType": "String",
+			"businessType": "MultiselectPicklist",
+			"externalReferenceCode": "RECOMMENDATIONS",
+			"indexed": true,
+			"indexedAsKeyword": false,
+			"indexedLanguageId": "en_US",
+			"label": {
+				"en_US": "Recommendations"
+			},
+			"listTypeDefinitionExternalReferenceCode": "RECOMMENDATIONS",
+			"name": "recommendations",
+			"readOnly": "false",
+			"required": false,
+			"state": false,
+			"system": false,
+			"type": "String"
+		}
+	]
+}

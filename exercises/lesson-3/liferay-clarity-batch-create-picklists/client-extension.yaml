@@ -1,0 +1,16 @@
+assemble:
+    - from: batch
+      into: batch
+liferay-clarity-batch-create-picklists:
+    name: Liferay Clarity Batch Create Picklists
+    oAuthApplicationHeadlessServer: liferay-clarity-batch-create-picklists-oauth-application-headless-server
+    type: batch
+liferay-clarity-batch-create-picklists-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Liferay Clarity Batch Create Picklists OAuth Application Headless Server
+    scopes:
+        - Liferay.Headless.Admin.List.Type.everything
+        - Liferay.Headless.Batch.Engine.everything
+        - Liferay.Object.Admin.REST.everything
+    type: oAuthApplicationHeadlessServer

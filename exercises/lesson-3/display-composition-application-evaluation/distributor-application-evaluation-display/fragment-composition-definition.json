@@ -1,0 +1,1008 @@
+{
+    "definition": {
+      "fragmentStyle": {
+        "width": "600px"
+      },
+      "indexed": true,
+      "layout": {
+        "widthType": "Fixed"
+      },
+      "name": "Distributor Application Evaluation Container"
+    },
+    "id": "07f01ca7-a69b-3644-0aa6-3c63b0717cbb",
+    "pageElements": [
+      {
+        "definition": {
+          "gutters": true,
+          "indexed": true,
+          "modulesPerRow": 2,
+          "name": "Evaluation Header Grid",
+          "numberOfColumns": 2,
+          "reverseOrder": false,
+          "rowViewports": [
+            {
+              "id": "landscapeMobile",
+              "rowViewportDefinition": {
+                "modulesPerRow": 1
+              }
+            },
+            {
+              "id": "portraitMobile",
+              "rowViewportDefinition": {}
+            },
+            {
+              "id": "tablet",
+              "rowViewportDefinition": {}
+            }
+          ],
+          "verticalAlignment": "middle"
+        },
+        "id": "a6c09f9b-04b9-a004-04fd-836430538ec7",
+        "pageElements": [
+          {
+            "definition": {
+              "columnViewports": [
+                {
+                  "columnViewportDefinition": {
+                    "size": 12
+                  },
+                  "id": "landscapeMobile"
+                },
+                {
+                  "columnViewportDefinition": {},
+                  "id": "portraitMobile"
+                },
+                {
+                  "columnViewportDefinition": {},
+                  "id": "tablet"
+                }
+              ],
+              "size": 6
+            },
+            "id": "cae9e76e-7d7f-288e-c45a-647041c2d88c",
+            "pageElements": [
+              {
+                "definition": {
+                  "fragment": {
+                    "key": "BASIC_COMPONENT-heading"
+                  },
+                  "fragmentConfig": {
+                    "headingLevel": "h6"
+                  },
+                  "fragmentFields": [
+                    {
+                      "id": "element-text",
+                      "value": {
+                        "fragmentLink": {},
+                        "text": {
+                          "value_i18n": {
+                            "en_US": "Application Evaluation Form"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "fragmentStyle": {
+                    "paddingBottom": "4",
+                    "paddingTop": "4",
+                    "textColor": "colorBrandPrimaryLighten1"
+                  },
+                  "indexed": true,
+                  "name": "Evaluation Form Heading"
+                },
+                "id": "ac873eb0-4a99-9fcb-a996-eb2c18534267",
+                "type": "Fragment"
+              }
+            ],
+            "type": "Column"
+          },
+          {
+            "definition": {
+              "columnViewports": [
+                {
+                  "columnViewportDefinition": {
+                    "size": 12
+                  },
+                  "id": "landscapeMobile"
+                },
+                {
+                  "columnViewportDefinition": {},
+                  "id": "portraitMobile"
+                },
+                {
+                  "columnViewportDefinition": {},
+                  "id": "tablet"
+                }
+              ],
+              "size": 6
+            },
+            "id": "c36100ed-9d02-ecae-2873-b4b953563354",
+            "pageElements": [
+              {
+                "definition": {
+                  "indexed": true,
+                  "layout": {
+                    "widthType": "Fixed"
+                  },
+                  "name": "Evaluation ID Container"
+                },
+                "id": "1a918acf-91b1-36db-e97e-4dec1d03aeb7",
+                "pageElements": [
+                  {
+                    "definition": {
+                      "fragmentStyle": {
+                        "paddingBottom": "4",
+                        "paddingTop": "4"
+                      },
+                      "gutters": true,
+                      "indexed": true,
+                      "modulesPerRow": 2,
+                      "name": "Evaluation ID Grid",
+                      "numberOfColumns": 2,
+                      "reverseOrder": false,
+                      "rowViewports": [
+                        {
+                          "id": "landscapeMobile",
+                          "rowViewportDefinition": {
+                            "modulesPerRow": 1
+                          }
+                        },
+                        {
+                          "id": "portraitMobile",
+                          "rowViewportDefinition": {}
+                        },
+                        {
+                          "id": "tablet",
+                          "rowViewportDefinition": {}
+                        }
+                      ],
+                      "verticalAlignment": "top"
+                    },
+                    "id": "183ece6f-0d52-d43d-66f9-49b1b97a30db",
+                    "pageElements": [
+                      {
+                        "definition": {
+                          "columnViewports": [
+                            {
+                              "columnViewportDefinition": {
+                                "size": 12
+                              },
+                              "id": "landscapeMobile"
+                            },
+                            {
+                              "columnViewportDefinition": {},
+                              "id": "portraitMobile"
+                            },
+                            {
+                              "columnViewportDefinition": {},
+                              "id": "tablet"
+                            }
+                          ],
+                          "size": 6
+                        },
+                        "id": "2d3474d8-53a1-1a33-ec6a-b2b0f75fbb43",
+                        "pageElements": [
+                          {
+                            "definition": {
+                              "fragment": {
+                                "key": "BASIC_COMPONENT-heading"
+                              },
+                              "fragmentConfig": {
+                                "headingLevel": "h6"
+                              },
+                              "fragmentFields": [
+                                {
+                                  "id": "element-text",
+                                  "value": {
+                                    "fragmentLink": {},
+                                    "text": {
+                                      "value_i18n": {
+                                        "en_US": "Evaluation ID:"
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "fragmentStyle": {
+                                "textAlign": "right"
+                              },
+                              "indexed": true,
+                              "name": "Evaluation ID Heading"
+                            },
+                            "id": "da67b62e-9a84-a9f1-7141-7ad1303ffff9",
+                            "type": "Fragment"
+                          }
+                        ],
+                        "type": "Column"
+                      },
+                      {
+                        "definition": {
+                          "columnViewports": [
+                            {
+                              "columnViewportDefinition": {
+                                "size": 12
+                              },
+                              "id": "landscapeMobile"
+                            },
+                            {
+                              "columnViewportDefinition": {},
+                              "id": "portraitMobile"
+                            },
+                            {
+                              "columnViewportDefinition": {},
+                              "id": "tablet"
+                            }
+                          ],
+                          "size": 6
+                        },
+                        "id": "09582286-6692-d452-4e66-93ce78c33460",
+                        "pageElements": [
+                          {
+                            "definition": {
+                              "fragment": {
+                                "key": "BASIC_COMPONENT-heading"
+                              },
+                              "fragmentConfig": {
+                                "headingLevel": "h6"
+                              },
+                              "fragmentFields": [
+                                {
+                                  "id": "element-text",
+                                  "value": {
+                                    "fragmentLink": {}
+                                  }
+                                }
+                              ],
+                              "fragmentStyle": {
+                                "textColor": "colorBrandPrimaryLighten1"
+                              },
+                              "indexed": true,
+                              "name": "Mapped Evaluation ID Heading"
+                            },
+                            "id": "61920c3c-7da6-6df3-bb6c-540c189400b4",
+                            "type": "Fragment"
+                          }
+                        ],
+                        "type": "Column"
+                      }
+                    ],
+                    "type": "Row"
+                  }
+                ],
+                "type": "Section"
+              }
+            ],
+            "type": "Column"
+          }
+        ],
+        "type": "Row"
+      },
+      {
+        "definition": {
+          "fragment": {
+            "key": "BASIC_COMPONENT-spacer"
+          },
+          "fragmentConfig": {
+            "height": "py-1"
+          },
+          "fragmentFields": [],
+          "fragmentStyle": {
+            "backgroundColor": "colorBrandPrimaryLighten1",
+            "borderRadius": "20px",
+            "marginBottom": "4",
+            "marginTop": "4"
+          },
+          "indexed": true
+        },
+        "id": "a14a788c-476a-ff49-5500-fdf9221d4599",
+        "type": "Fragment"
+      },
+      {
+        "definition": {
+          "indexed": true,
+          "layout": {},
+          "name": "Applicant Details Container"
+        },
+        "id": "9516e0fb-dfe2-421d-f5a0-6f04b4b44575",
+        "pageElements": [
+          {
+            "definition": {
+              "fragment": {
+                "key": "BASIC_COMPONENT-heading"
+              },
+              "fragmentConfig": {
+                "headingLevel": "h4"
+              },
+              "fragmentFields": [
+                {
+                  "id": "element-text",
+                  "value": {
+                    "fragmentLink": {},
+                    "text": {
+                      "value_i18n": {
+                        "en_US": "Applicant Details"
+                      }
+                    }
+                  }
+                }
+              ],
+              "fragmentStyle": {
+                "marginBottom": "4",
+                "paddingLeft": "4"
+              },
+              "indexed": true,
+              "name": "Applicant Details Heading"
+            },
+            "id": "dc9a6604-5c86-ce65-c0c6-87b2afe2f3e0",
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "gutters": false,
+              "indexed": true,
+              "modulesPerRow": 2,
+              "name": "Applicant Details Grid",
+              "numberOfColumns": 6,
+              "reverseOrder": false,
+              "rowViewports": [
+                {
+                  "id": "landscapeMobile",
+                  "rowViewportDefinition": {
+                    "modulesPerRow": 1
+                  }
+                },
+                {
+                  "id": "portraitMobile",
+                  "rowViewportDefinition": {}
+                },
+                {
+                  "id": "tablet",
+                  "rowViewportDefinition": {}
+                }
+              ],
+              "verticalAlignment": "middle"
+            },
+            "id": "cffc604e-b5d1-d363-7d23-b55af793fce9",
+            "pageElements": [
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {
+                        "size": 12
+                      },
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 6
+                },
+                "id": "afa428ea-9e94-4f87-0997-edc802654631",
+                "pageElements": [
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-paragraph"
+                      },
+                      "fragmentConfig": {},
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {},
+                            "text": {
+                              "value_i18n": {
+                                "en_US": "Applicant Name:"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "fragmentStyle": {
+                        "fontSize": "1.125rem",
+                        "fontWeight": "fontWeightBold",
+                        "paddingBottom": "2",
+                        "paddingRight": "3",
+                        "textAlign": "right"
+                      },
+                      "indexed": true,
+                      "name": "Applicant Name"
+                    },
+                    "id": "216a5f0b-bef7-eea0-5f19-709cae06ee56",
+                    "type": "Fragment"
+                  }
+                ],
+                "type": "Column"
+              },
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {
+                        "size": 12
+                      },
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 6
+                },
+                "id": "5529b9e6-5441-66e5-c50f-3aaf212a2227",
+                "pageElements": [
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-paragraph"
+                      },
+                      "fragmentConfig": {},
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {},
+                            "text": {
+                              "value_i18n": {
+                                "en_US": "Applicant Name Text"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "fragmentStyle": {
+                        "fontSize": "1.125rem",
+                        "fontWeight": "fontWeightLight",
+                        "paddingBottom": "2"
+                      },
+                      "indexed": true,
+                      "name": "Mapped Applicant Name"
+                    },
+                    "id": "cc21ca5d-3caa-9813-1c7e-eb9cf0762ae3",
+                    "type": "Fragment"
+                  }
+                ],
+                "type": "Column"
+              },
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {
+                        "size": 12
+                      },
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 6
+                },
+                "id": "62f3fabf-90f2-d960-26b9-3a785993c877",
+                "pageElements": [
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-paragraph"
+                      },
+                      "fragmentConfig": {},
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {},
+                            "text": {
+                              "value_i18n": {
+                                "en_US": "Business Name:"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "fragmentStyle": {
+                        "fontSize": "1.125rem",
+                        "fontWeight": "fontWeightBold",
+                        "paddingBottom": "2",
+                        "paddingRight": "3",
+                        "textAlign": "right"
+                      },
+                      "indexed": true,
+                      "name": "Business Name"
+                    },
+                    "id": "0f10416f-364a-e2c8-987e-694199bc552e",
+                    "type": "Fragment"
+                  }
+                ],
+                "type": "Column"
+              },
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {
+                        "size": 12
+                      },
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 6
+                },
+                "id": "b97cbe0d-57c3-0cb7-68c2-75283c887f3e",
+                "pageElements": [
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-paragraph"
+                      },
+                      "fragmentConfig": {},
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {},
+                            "text": {
+                              "value_i18n": {
+                                "en_US": "Business Name Text"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "fragmentStyle": {
+                        "fontSize": "1.125rem",
+                        "fontWeight": "fontWeightLight",
+                        "paddingBottom": "2"
+                      },
+                      "indexed": true,
+                      "name": "Mapped Business Name"
+                    },
+                    "id": "96cb1d59-89d0-0f78-409a-8a51a83999ce",
+                    "type": "Fragment"
+                  }
+                ],
+                "type": "Column"
+              },
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {
+                        "size": 12
+                      },
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 6
+                },
+                "id": "cbd89e36-420d-a6ad-4c1e-411d157ef0dd",
+                "pageElements": [
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-paragraph"
+                      },
+                      "fragmentConfig": {},
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {},
+                            "text": {
+                              "value_i18n": {
+                                "en_US": "Business Website URL:"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "fragmentStyle": {
+                        "fontSize": "1.125rem",
+                        "fontWeight": "fontWeightBold",
+                        "paddingRight": "3",
+                        "textAlign": "right"
+                      },
+                      "indexed": true,
+                      "name": "Business Website URL"
+                    },
+                    "id": "28a3ba15-4208-16ea-96d0-7be0ff4b47b3",
+                    "type": "Fragment"
+                  }
+                ],
+                "type": "Column"
+              },
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {
+                        "size": 12
+                      },
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 6
+                },
+                "id": "76733032-018e-21b9-e7e1-68532c1e2dfa",
+                "pageElements": [
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-paragraph"
+                      },
+                      "fragmentConfig": {},
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {},
+                            "text": {
+                              "value_i18n": {
+                                "en_US": "Site URL"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "fragmentStyle": {
+                        "fontSize": "1.125rem",
+                        "fontWeight": "fontWeightLight"
+                      },
+                      "indexed": true,
+                      "name": "Mapped Business Website URL"
+                    },
+                    "id": "06223f66-f97d-01cf-2723-7a921b909c48",
+                    "type": "Fragment"
+                  }
+                ],
+                "type": "Column"
+              }
+            ],
+            "type": "Row"
+          }
+        ],
+        "type": "Section"
+      },
+      {
+        "definition": {
+          "fragment": {
+            "key": "BASIC_COMPONENT-spacer"
+          },
+          "fragmentConfig": {
+            "height": "py-1"
+          },
+          "fragmentFields": [],
+          "fragmentStyle": {
+            "backgroundColor": "colorBrandPrimaryLighten1",
+            "borderRadius": "20px",
+            "marginBottom": "4",
+            "marginTop": "4"
+          },
+          "indexed": true
+        },
+        "id": "4e223a59-bccb-9fd4-df5e-aba85277c2ce",
+        "type": "Fragment"
+      },
+      {
+        "definition": {
+          "formConfig": {
+            "formReference": {
+              "className": "com.liferay.object.model.ObjectDefinition#12345",
+              "classType": 0
+            }
+          },
+          "fragmentStyle": {
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": "15px",
+            "paddingBottom": "4",
+            "paddingLeft": "4",
+            "paddingRight": "4",
+            "paddingTop": "4"
+          },
+          "indexed": true,
+          "layout": {
+            "widthType": "Fixed"
+          },
+          "name": "Application Evaluation Form Container"
+        },
+        "id": "fc3bf429-acec-0316-4b25-4e0149b7d2f3",
+        "pageElements": [
+          {
+            "definition": {
+              "fragment": {
+                "key": "BASIC_COMPONENT-heading"
+              },
+              "fragmentConfig": {
+                "headingLevel": "h4"
+              },
+              "fragmentFields": [
+                {
+                  "id": "element-text",
+                  "value": {
+                    "fragmentLink": {},
+                    "text": {
+                      "value_i18n": {
+                        "en_US": "General Details"
+                      }
+                    }
+                  }
+                }
+              ],
+              "fragmentStyle": {
+                "marginBottom": "4"
+              },
+              "indexed": true,
+              "name": "General Details Heading"
+            },
+            "id": "d17200bc-b242-44f2-688a-e5536987304d",
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "fragment": {
+                "key": "INPUTS-select-from-list"
+              },
+              "fragmentConfig": {
+                "inputLabel": {
+                  "en_US": "Related Distributor Application"
+                },
+                "inputFieldId": "ObjectField_r_applicationToEvaluations_c_distributorApplicationId"
+              },
+              "fragmentFields": [],
+              "fragmentStyle": {
+                "marginBottom": "4"
+              },
+              "indexed": true,
+              "name": "Related Distributor Application"
+            },
+            "id": "59fe8a90-d496-1350-16fb-cfa30df7f441",
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "fragment": {
+                "key": "INPUTS-rich-text-input"
+              },
+              "fragmentConfig": {
+                "inputFieldId": "ObjectField_interviewNotes"
+              },
+              "fragmentFields": [],
+              "fragmentStyle": {
+                "marginBottom": "4"
+              },
+              "indexed": true,
+              "name": "Interview Notes"
+            },
+            "id": "ef0068b3-d601-115e-0369-e9f6320cf94d",
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "fragment": {
+                "key": "INPUTS-file-upload"
+              },
+              "fragmentConfig": {
+                "buttonText": "Select File",
+                "showSupportedFileInfo": true,
+                "inputFieldId": "ObjectField_attachment"
+              },
+              "fragmentFields": [],
+              "fragmentStyle": {
+                "marginBottom": "4"
+              },
+              "indexed": true,
+              "name": "Attachment"
+            },
+            "id": "9038c588-a21b-8af5-d3ac-4e95a5d1e18e",
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "fragment": {
+                "key": "BASIC_COMPONENT-heading"
+              },
+              "fragmentConfig": {
+                "headingLevel": "h4"
+              },
+              "fragmentFields": [
+                {
+                  "id": "element-text",
+                  "value": {
+                    "fragmentLink": {},
+                    "text": {
+                      "value_i18n": {
+                        "en_US": "Assessment"
+                      }
+                    }
+                  }
+                }
+              ],
+              "fragmentStyle": {
+                "marginBottom": "4"
+              },
+              "indexed": true,
+              "name": "Business Details Heading"
+            },
+            "id": "cad1dd35-6a98-ee4e-fc26-809bde696af4",
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "fragment": {
+                "key": "INPUTS-multiselect-list"
+              },
+              "fragmentConfig": {
+                "numberOfOptions": 5,
+                "showAllOptions": true,
+                "inputFieldId": "ObjectField_recommendations"
+              },
+              "fragmentFields": [],
+              "fragmentStyle": {
+                "marginBottom": "4"
+              },
+              "indexed": true,
+              "name": "Recommendations"
+            },
+            "id": "ca165e73-3835-3e20-f9b8-23f7a7c65c5c",
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "fragment": {
+                "key": "INPUTS-textarea"
+              },
+              "fragmentConfig": {
+                "showCharactersCount": false,
+                "numberOfLines": 5,
+                "placeholder": "",
+                "inputFieldId": "ObjectField_recommendationComments"
+              },
+              "fragmentFields": [],
+              "fragmentStyle": {
+                "marginBottom": "4"
+              },
+              "indexed": true,
+              "name": "Recommendation Comments"
+            },
+            "id": "da0c7f15-8dbe-fa6b-1eac-7538dd43376a",
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "fragment": {
+                "key": "INPUTS-select-from-list"
+              },
+              "fragmentConfig": {
+                "inputFieldId": "ObjectField_assessmentScore"
+              },
+              "fragmentFields": [],
+              "fragmentStyle": {
+                "marginBottom": "4"
+              },
+              "indexed": true,
+              "name": "Assessment Score"
+            },
+            "id": "6100dbb6-0d86-0ae6-5c4a-4db49e48c539",
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "fragment": {
+                "key": "BASIC_COMPONENT-heading"
+              },
+              "fragmentConfig": {
+                "headingLevel": "h4"
+              },
+              "fragmentFields": [
+                {
+                  "id": "element-text",
+                  "value": {
+                    "fragmentLink": {},
+                    "text": {
+                      "value_i18n": {
+                        "en_US": "Resolution"
+                      }
+                    }
+                  }
+                }
+              ],
+              "fragmentStyle": {
+                "marginBottom": "4"
+              },
+              "indexed": true,
+              "name": "Attachments Heading"
+            },
+            "id": "9ed1b1eb-0952-6f1f-0950-8041c0c136e0",
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "fragment": {
+                "key": "INPUTS-select-from-list"
+              },
+              "fragmentConfig": {
+                "inputLabel": {
+                  "en_US": "Decision"
+                },
+                "inputFieldId": "ObjectField_decision"
+              },
+              "fragmentFields": [],
+              "fragmentStyle": {
+                "marginBottom": "4"
+              },
+              "indexed": true,
+              "name": "Decision"
+            },
+            "id": "4da0952f-ec78-df22-71e6-369fbf21ba1e",
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "fragment": {
+                "key": "INPUTS-submit-button"
+              },
+              "fragmentConfig": {
+                "buttonType": "primary",
+                "submittedEntryStatus": "approved",
+                "buttonSize": "nm"
+              },
+              "fragmentFields": [
+                {
+                  "id": "submit-button-text",
+                  "value": {
+                    "fragmentLink": {}
+                  }
+                }
+              ],
+              "indexed": true
+            },
+            "id": "423adf2d-08e9-2179-7d8b-c655091d09a9",
+            "type": "Fragment"
+          }
+        ],
+        "type": "Form"
+      }
+    ],
+    "type": "Section"
+}

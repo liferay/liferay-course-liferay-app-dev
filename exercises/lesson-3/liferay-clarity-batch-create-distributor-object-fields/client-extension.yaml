@@ -1,0 +1,15 @@
+assemble:
+    - from: batch
+      into: batch
+liferay-clarity-batch-create-distributor-object-fields:
+    name: Liferay Clarity Batch Create Distributor Object Fields
+    oAuthApplicationHeadlessServer: create-distributor-object-fields-oauth-application-headless-server
+    type: batch
+create-distributor-object-fields-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Liferay Clarity Batch Create Distributor Object Fields OAuth Application Headless Server
+    scopes:
+        - Liferay.Headless.Batch.Engine.everything
+        - Liferay.Object.Admin.REST.everything
+    type: oAuthApplicationHeadlessServer
