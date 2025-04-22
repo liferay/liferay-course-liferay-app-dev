@@ -1,0 +1,493 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.admin.rest.dto.v1_0.ObjectDefinition",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "UPSERT",
+			"onErrorFail": "false",
+			"taskItemDelegateName": "DEFAULT",
+			"updateStrategy": "UPDATE"
+		}
+	},
+	"items": [
+		{
+			"accountEntryRestricted": true,
+			"accountEntryRestrictedObjectFieldName": "r_accountToTickets_accountEntryId",
+			"active": true,
+			"defaultLanguageId": "en_US",
+			"enableCategorization": true,
+			"enableComments": true,
+			"enableObjectEntryHistory": true,
+			"externalReferenceCode": "TICKET",
+			"label": {
+				"en_US": "Ticket"
+			},
+			"name": "Ticket",
+			"objectActions": [
+				{
+					"active": true,
+					"errorMessage": {
+						"en_US": "Unable to assign ticket."
+					},
+					"label": {
+						"en_US": "Assign Ticket to Me"
+					},
+					"name": "AssignTicketToMe",
+					"objectActionExecutorKey": "update-object-entry",
+					"objectActionTriggerKey": "standalone",
+					"parameters": {
+						"objectDefinitionExternalReferenceCode": "TICKET",
+						"predefinedValues": [
+							{
+								"inputAsValue": false,
+								"label": {
+									"en_US": "User to Ticket"
+								},
+								"name": "r_userToTicket_userId",
+								"value": "currentUserId"
+							}
+						]
+					},
+					"status": {
+						"code": 1,
+						"label": "success",
+						"label_i18n": "Success"
+					}
+				},
+				{
+					"active": false,
+					"conditionExpression": "ticketStatus == 'open'",
+					"description": "",
+					"errorMessage": {
+					},
+					"label": {
+						"en_US": "Liferay Ticket Etc Spring Boot Object Action Ticket"
+					},
+					"name": "SpringBootObjectActionTicket",
+					"objectActionExecutorKey": "function#liferay-ticket-etc-spring-boot-object-action-ticket",
+					"objectActionTriggerKey": "onAfterAdd",
+					"parameters": {
+					},
+					"status": {
+						"code": 0,
+						"label": "never-ran",
+						"label_i18n": "Never Ran"
+					}
+				}
+			],
+			"objectFields": [
+				{
+					"DBType": "Long",
+					"businessType": "Attachment",
+					"externalReferenceCode": "ATTACHMENT",
+					"indexed": true,
+					"indexedAsKeyword": false,
+					"indexedLanguageId": "en_US",
+					"label": {
+						"en_US": "Attachment"
+					},
+					"name": "attachment",
+					"objectFieldSettings": [
+						{
+							"name": "acceptedFileExtensions",
+							"value": "jpeg, jpg, pdf, png"
+						},
+						{
+							"name": "maximumFileSize",
+							"value": "100"
+						},
+						{
+							"name": "fileSource",
+							"value": "userComputer"
+						},
+						{
+							"name": "showFilesInDocumentsAndMedia",
+							"value": "false"
+						}
+					],
+					"required": false,
+					"state": false,
+					"system": false,
+					"type": "Long"
+				},
+				{
+					"DBType": "Clob",
+					"businessType": "RichText",
+					"externalReferenceCode": "DESCRIPTION",
+					"indexed": true,
+					"indexedAsKeyword": false,
+					"indexedLanguageId": "en_US",
+					"label": {
+						"en_US": "Description"
+					},
+					"name": "description",
+					"objectFieldSettings": [
+					],
+					"required": false,
+					"state": false,
+					"system": false,
+					"type": "Clob"
+				},
+				{
+					"DBType": "String",
+					"businessType": "Picklist",
+					"defaultValue": "unassigned",
+					"externalReferenceCode": "PRIORITY",
+					"indexed": true,
+					"indexedAsKeyword": false,
+					"indexedLanguageId": "en_US",
+					"label": {
+						"en_US": "Priority"
+					},
+					"listTypeDefinitionExternalReferenceCode": "PRIORITIES",
+					"name": "priority",
+					"objectFieldSettings": [
+					],
+					"required": true,
+					"state": false,
+					"system": false,
+					"type": "String"
+				},
+				{
+					"DBType": "String",
+					"businessType": "Picklist",
+					"defaultValue": "eMEA",
+					"externalReferenceCode": "REGION",
+					"indexed": true,
+					"indexedAsKeyword": false,
+					"indexedLanguageId": "en_US",
+					"label": {
+						"en_US": "Region"
+					},
+					"listTypeDefinitionExternalReferenceCode": "REGIONS",
+					"name": "region",
+					"objectFieldSettings": [
+					],
+					"required": true,
+					"state": false,
+					"system": false,
+					"type": "String"
+				},
+				{
+					"DBType": "String",
+					"businessType": "Picklist",
+					"externalReferenceCode": "RESOLUTION",
+					"indexed": true,
+					"indexedAsKeyword": false,
+					"indexedLanguageId": "en_US",
+					"label": {
+						"en_US": "Resolution"
+					},
+					"listTypeDefinitionExternalReferenceCode": "RESOLUTIONS",
+					"name": "resolution",
+					"objectFieldSettings": [
+					],
+					"required": false,
+					"state": false,
+					"system": false,
+					"type": "String"
+				},
+				{
+					"DBType": "String",
+					"businessType": "Text",
+					"externalReferenceCode": "SUBJECT",
+					"indexed": true,
+					"indexedAsKeyword": false,
+					"indexedLanguageId": "en_US",
+					"label": {
+						"en_US": "Subject"
+					},
+					"name": "subject",
+					"objectFieldSettings": [
+					],
+					"required": true,
+					"state": false,
+					"system": false,
+					"type": "String"
+				},
+				{
+					"DBType": "Clob",
+					"businessType": "LongText",
+					"externalReferenceCode": "SUGGESTIONS",
+					"indexed": true,
+					"indexedAsKeyword": false,
+					"indexedLanguageId": "en_US",
+					"label": {
+						"en_US": "Suggestions"
+					},
+					"name": "suggestions",
+					"objectFieldSettings": [
+					],
+					"required": false,
+					"state": false,
+					"system": false,
+					"type": "Clob"
+				},
+				{
+					"DBType": "String",
+					"businessType": "Picklist",
+					"defaultValue": "open",
+					"externalReferenceCode": "TICKET_STATUS",
+					"indexed": true,
+					"indexedAsKeyword": false,
+					"indexedLanguageId": "en_US",
+					"label": {
+						"en_US": "Ticket Status"
+					},
+					"listTypeDefinitionExternalReferenceCode": "STATUSES",
+					"name": "ticketStatus",
+					"objectFieldSettings": [
+						{
+							"name": "stateFlow",
+							"value": {
+								"objectStates": [
+									{
+										"key": "answered",
+										"objectStateTransitions": [
+											{
+												"key": "closed"
+											}
+										]
+									},
+									{
+										"key": "closed",
+										"objectStateTransitions": [
+											{
+												"key": "open"
+											}
+										]
+									},
+									{
+										"key": "escalated",
+										"objectStateTransitions": [
+											{
+												"key": "answered"
+											},
+											{
+												"key": "closed"
+											},
+											{
+												"key": "inProgress"
+											},
+											{
+												"key": "inReview"
+											},
+											{
+												"key": "open"
+											},
+											{
+												"key": "queued"
+											},
+											{
+												"key": "verifying"
+											},
+											{
+												"key": "waiting"
+											}
+										]
+									},
+									{
+										"key": "inProgress",
+										"objectStateTransitions": [
+											{
+												"key": "answered"
+											},
+											{
+												"key": "closed"
+											}
+										]
+									},
+									{
+										"key": "inReview",
+										"objectStateTransitions": [
+											{
+												"key": "answered"
+											},
+											{
+												"key": "closed"
+											},
+											{
+												"key": "escalated"
+											},
+											{
+												"key": "inProgress"
+											},
+											{
+												"key": "open"
+											},
+											{
+												"key": "queued"
+											},
+											{
+												"key": "verifying"
+											},
+											{
+												"key": "waiting"
+											}
+										]
+									},
+									{
+										"key": "open",
+										"objectStateTransitions": [
+											{
+												"key": "closed"
+											},
+											{
+												"key": "inProgress"
+											}
+										]
+									},
+									{
+										"key": "queued",
+										"objectStateTransitions": [
+											{
+												"key": "answered"
+											},
+											{
+												"key": "closed"
+											},
+											{
+												"key": "escalated"
+											},
+											{
+												"key": "inProgress"
+											},
+											{
+												"key": "inReview"
+											},
+											{
+												"key": "open"
+											},
+											{
+												"key": "verifying"
+											},
+											{
+												"key": "waiting"
+											}
+										]
+									},
+									{
+										"key": "verifying",
+										"objectStateTransitions": [
+											{
+												"key": "open"
+											},
+											{
+												"key": "queued"
+											},
+											{
+												"key": "inProgress"
+											},
+											{
+												"key": "answered"
+											},
+											{
+												"key": "escalated"
+											},
+											{
+												"key": "inReview"
+											},
+											{
+												"key": "waiting"
+											},
+											{
+												"key": "closed"
+											}
+										]
+									},
+									{
+										"key": "waiting",
+										"objectStateTransitions": [
+											{
+												"key": "answered"
+											},
+											{
+												"key": "closed"
+											},
+											{
+												"key": "escalated"
+											},
+											{
+												"key": "inProgress"
+											},
+											{
+												"key": "inReview"
+											},
+											{
+												"key": "open"
+											},
+											{
+												"key": "queued"
+											},
+											{
+												"key": "verifying"
+											}
+										]
+									}
+								]
+							}
+						}
+					],
+					"required": true,
+					"state": true,
+					"system": false,
+					"type": "String"
+				},
+				{
+					"DBType": "String",
+					"businessType": "Picklist",
+					"defaultValue": "other",
+					"externalReferenceCode": "TYPE",
+					"indexed": true,
+					"indexedAsKeyword": false,
+					"indexedLanguageId": "en_US",
+					"label": {
+						"en_US": "Type"
+					},
+					"listTypeDefinitionExternalReferenceCode": "TYPES",
+					"name": "type",
+					"objectFieldSettings": [
+					],
+					"required": true,
+					"state": false,
+					"system": false,
+					"type": "String"
+				}
+			],
+			"objectFolderExternalReferenceCode": "TICKETING",
+			"objectLayouts": [
+			],
+			"objectRelationships": [
+				{
+					"deletionType": "prevent",
+					"label": {
+						"en_US": "Ticket to Tickets"
+					},
+					"name": "ticketToTickets",
+					"objectDefinitionExternalReferenceCode1": "TICKET",
+					"objectDefinitionExternalReferenceCode2": "TICKET",
+					"type": "oneToMany"
+				}
+			],
+			"objectValidationRules": [
+			],
+			"objectViews": [
+			],
+			"panelCategoryKey": "applications_menu.applications.custom.apps",
+			"parameterRequired": false,
+			"pluralLabel": {
+				"en_US": "Tickets"
+			},
+			"portlet": true,
+			"restContextPath": "/o/c/tickets",
+			"scope": "company",
+			"status": {
+				"code": 0,
+				"label": "approved",
+				"label_i18n": "Approved"
+			},
+			"system": false,
+			"titleObjectFieldName": "subject"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.admin.rest.dto.v1_0.ObjectRelationship",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "INSERT",
+			"externalReferenceCode": "L_ACCOUNT",
+			"onErrorFail": "false",
+			"taskItemDelegateName": "DEFAULT",
+			"updateStrategy": "UPDATE"
+		}
+	},
+	"items": [
+		{
+			"deletionType": "prevent",
+			"label": {
+				"en_US": "Account to Tickets"
+			},
+			"name": "accountToTickets",
+			"externalReferenceCode": "ACCOUNT_TO_TICKETS",
+			"objectDefinitionExternalReferenceCode1": "L_ACCOUNT",
+			"objectDefinitionExternalReferenceCode2": "TICKET",
+			"type": "oneToMany"
+		}
+	]
+}

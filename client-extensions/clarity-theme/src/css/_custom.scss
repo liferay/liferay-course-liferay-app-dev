@@ -1,0 +1,102 @@
+@import 'classic_custom';
+
+@import 'dialect/index';
+
+
+a {
+    text-decoration: none !important;
+}
+
+.list-menu ul {
+    padding-left: 0;
+}
+
+li.lfr-nav-item.open {
+    padding-bottom: 0.85rem;
+}
+
+li.lfr-nav-item.open > a {
+    text-decoration: none;
+}
+
+
+li.lfr-nav-item.nav-item {
+    font-weight: bold;
+}
+
+li.lfr-nav-item.nav-item:hover {
+    font-weight: bold;
+    color: var(--primary);
+}
+
+li.lfr-nav-item.nav-item.selected.active {
+    font-weight: bold;
+    padding: 3px;
+    background-color: var(--color-brand-primary-lighten-5);
+    border-radius: 5px;
+    color: var(--primary);
+}
+
+.bg-light {
+    background-color: var(--gray-100) !important;
+}
+
+.panel-header {
+    border-bottom: 0px solid transparent;
+    border-top-left-radius: calc( 	0.5rem - 1px );
+    border-top-right-radius: calc( 	0.5rem - 1px );
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1.2;
+    padding: 0.75rem 0.3rem;
+    position: relative;
+    width: 100%;
+}
+
+div.clarity-legal-menu li.lfr-nav-item.nav-item {
+    font-weight: normal;
+}
+
+button.facet-clear-btn > strong {
+    font-size:0.75rem;
+    padding-left: 5px;
+}
+
+.clarity-facet-list {
+    padding-left: 5px;
+}
+
+.table td.prdct {
+    border-bottom-color: var(--gray-200);
+    border-top-color: var(--white);
+}
+
+.card.prdct {
+    background-color: var(--gray-100);
+}
+
+.bg-w {
+    background-color: var(--white);
+}
+
+.lfr-layout-structure-item-com-liferay-commerce-product-content-search-web-internal-portlet-cpspecificationoptionfacetsportlet {
+    background-color: var(--gray-100);
+    padding: 0.875rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+.lfr-layout-structure-item-com-liferay-commerce-product-content-search-web-internal-portlet-cpoptionfacetsportlet {
+    background-color: var(--gray-100);
+    padding: 0.875rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+.lfr-layout-structure-item-com-liferay-commerce-product-content-search-web-internal-portlet-cpoptionfacetsportlet .panel-collapse{
+    padding-left: 1rem;
+}
+
+.lfr-layout-structure-item-com-liferay-commerce-product-content-search-web-internal-portlet-cpspecificationoptionfacetsportlet .panel-collapse{
+    padding-left: 1rem;
+}
