@@ -1,0 +1,17 @@
+assemble:
+    - from: batch
+      into: batch
+clarity-ticketing-batch:
+    name: Clarity Ticketing Batch
+    oAuthApplicationHeadlessServer: clarity-ticketing-batch-oauth-application-headless-server
+    type: batch
+clarity-ticketing-batch-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Clarity Ticketing Batch OAuth Application Headless Server
+    scopes:
+        - C_Ticket.everything
+        - Liferay.Headless.Admin.List.Type.everything
+        - Liferay.Headless.Batch.Engine.everything
+        - Liferay.Object.Admin.REST.everything
+    type: oAuthApplicationHeadlessServer
