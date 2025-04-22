@@ -28,3 +28,7 @@
 /plugins-sdk/dist
 /plugins-sdk/lib
 test-results
+/.yarnrc
+/package.json
+/yarn.lock
+
