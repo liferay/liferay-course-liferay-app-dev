@@ -1,0 +1,10 @@
+{
+	"dependencies": {
+	},
+	"liferayDesignPack": {
+		"baseTheme": "styled"
+	},
+	"main": "package.json",
+	"name": "@liferay/clarity-theme",
+	"version": "0.0.0"
+}
