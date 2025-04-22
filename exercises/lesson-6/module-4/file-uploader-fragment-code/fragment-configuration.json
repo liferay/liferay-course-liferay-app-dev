@@ -1,0 +1,35 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "defaultValue": "Browse File",
+                    "label": "button-text",
+                    "localizable": true,
+                    "name": "buttonText",
+                    "type": "text"
+                }
+            ],
+            "label": "Upload Options"
+        },
+        {
+            "fields": [
+                {
+                    "defaultValue": "Upload may take a few seconds",
+                    "label": "Loading Title",
+                    "localizable": true,
+                    "name": "loadingTitle",
+                    "type": "text"
+                },
+                {
+                    "defaultValue": "Please keep the window open",
+                    "label": "Loading Help Text",
+                    "localizable": true,
+                    "name": "loadingHelpText",
+                    "type": "text"
+                }
+            ],
+            "label": "Loading Options"
+        }
+    ]
+}

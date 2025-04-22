@@ -1,0 +1,9 @@
+<li class="lfr-nav-item nav-item" role="presentation">
+	<a class="nav-link text-truncate" href="${navigationEntry.getURL()}" role="menuitem"> 	
+		<#if navigationEntry.getName()?c_lower_case?contains("tickets")>
+			<span class="text-truncate nav-pill-special">${navigationEntry.getName()}</span> 
+		<#else>
+			<span class="text-truncate">${navigationEntry.getName()}</span> 
+		</#if>			
+	</a>
+</li>

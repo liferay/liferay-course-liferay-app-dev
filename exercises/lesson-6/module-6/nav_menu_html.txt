@@ -1,0 +1,4 @@
+<div id="navbar_clarity_top_nav" class="text-center w-100">
+	<ul aria-label="Site Pages" class="navbar-blank navbar-nav navbar-site d-inline-flex" role="menubar">
+	</ul>
+</div>
