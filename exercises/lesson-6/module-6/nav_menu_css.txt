@@ -1,0 +1,29 @@
+<style>
+	.nav-pill-special {
+		border: 2px solid var(--color-brand-primary);
+		border-radius: 40px;
+		padding: 4px 10px;
+		justify-content: center;
+	}
+
+	#navbar_clarity_top_nav .list-menu ul {
+		list-style: none;
+	}
+
+	#navbar_clarity_top_nav .nav {
+		font-size: inherit;
+		font-weight: inherit;
+	}
+
+	#navbar_clarity_top_nav .lfr-nav-item > a {
+		color: inherit;
+	}
+
+	#navbar_clarity_top_nav .lfr-nav-item.selected > a {
+		color: var(--color-brand-primary);
+	}
+
+	#navbar_clarity_top_nav .lfr-nav-item > a:hover {
+		color: var(--color-brand-primary);
+	}
+</style>

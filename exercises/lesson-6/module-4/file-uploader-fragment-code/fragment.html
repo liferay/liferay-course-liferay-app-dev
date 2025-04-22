@@ -1,0 +1,31 @@
+<div id="fileupload-${fragmentEntryLinkNamespace}-element" class="form-group bg-white mb-0">
+	<label for="${fragmentEntryLinkNamespace}-text-input" id="${fragmentEntryLinkNamespace}-text-input-label">${htmlUtil.escape(input.label)}</label>
+
+	<div id="fileupload-${fragmentEntryLinkNamespace}-box" class="d-flex rounded align-items-center">
+		<div class="d-flex flex-column align-items-center c-gapy-3 bg-light p-3 rounded-lg w-100">
+			<input type="hidden" name="file-upload-status" value="2">
+
+			<div class="position-relative">
+				<div class="d-flex flex-row align-items-center">
+					<button class="btn btn-outline-primary text-nowrap" id="${fragmentEntryLinkNamespace}-file-upload-button" type="button">[@clay.icon className="text-primary" symbol="upload" /] Browse File</button>
+
+					<span class="form-control ml-1" id="${fragmentEntryLinkNamespace}-file-chosen">No file chosen</span>
+				</div>
+
+				<input id="${fragmentEntryLinkNamespace}-file-upload-input-hidden" name="file-upload-input-hidden" type="hidden" value="${input.value!}" />
+
+				<input accept="${(input.attributes.allowedFileExtensions?has_content)?then(input.attributes.allowedFileExtensions, '*')}" aria-describedby="${fragmentEntryLinkNamespace}-file-upload-input" aria-labelledby="${fragmentEntryLinkNamespace}-file-upload-input-label" class="file-upload-input" formenctype="multipart/form-data" id="${fragmentEntryLinkNamespace}-file-upload-input" name="file-upload-input" ${input.required?then('required', '' )} type="file" value="${input.value}" />
+			</div>
+
+			<p class="mb-0 text-secondary text-center" id="${fragmentEntryLinkNamespace}-file-upload-help-text">Accepted File Extensions: .jpeg,.jpg,.pdf,.png</p>
+		</div>
+	</div>
+</div>
+
+<template id="template-${fragmentEntryLinkNamespace}-loading">
+	<div id="${fragmentEntryLinkNamespace}-loading" class="d-flex flex-column align-items-center c-gapy-3 text-center">
+		<div class="loading-animation loading-animation-primary loading-animation-lg"></div>
+		<h4 class="font-weight-normal mb-0">Upload may take a few seconds</h4>
+		<p class="mb-0">Please keep the window open</p>
+	</div>
+</template>
