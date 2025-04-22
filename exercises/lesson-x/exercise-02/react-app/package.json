@@ -1,0 +1,25 @@
+{
+	"devDependencies": {
+		"@babel/core": "^7.26.0",
+		"@babel/preset-env": "^7.26.0",
+		"@babel/preset-react": "^7.26.3",
+		"babel-loader": "^9.2.1",
+		"css-loader": "6.10.0",
+		"style-loader": "3.3.4",
+		"webpack": "5.90.1",
+		"webpack-cli": "5.1.4",
+		"webpack-dev-server": "^4.11.1",
+        "webpack-merge": "^5.8.0",
+		"html-webpack-plugin": "^5.5.0",
+        "http-server": "^14.1.1",
+		"react-router-dom": "^6.8.2"
+	},
+	"name": "clarity-ticketing-ui",
+	"private": true,
+	"scripts": {
+		"build": "webpack",
+		"start": "webpack-dev-server",
+		"serve": "http-server ./dist -p 7002 -c-1 --cors"
+	},
+	"version": "0.0.0"
+}
