@@ -1,0 +1,10 @@
+trace:  j8p8he2a-e7a4-4919-b003-957b39b14f65
+
+{
+  "businessLegalName": "Eye Spy LLC",
+  "businessType": "Limited Liability Company",
+  "creditScore": 85,
+  "creditRiskLevel": "Low",
+  "verificationStatus": "Completed",
+  "validatedBusinessEIN": "32-4953459"
+}

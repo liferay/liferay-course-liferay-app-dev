@@ -1,0 +1,290 @@
+{
+    "externalReferenceCode": "a4eeacd8-6346-240d-e681-655f48c121f9",
+    "keywords": [],
+    "taxonomyCategoryIds": [],
+    "description": "What is the process for submitting a warranty claim for defective frames?",
+    "priority": {
+      "key": "major",
+      "name": "Major"
+    },
+    "r_accountToTickets_accountEntryId": 54651,
+    "region": {
+      "key": "eMEA",
+      "name": "EMEA"
+    },
+    "resolution": {
+      "key": "fixed",
+      "name": "Fixed"
+    },
+    "subject": "Information on Warranty and Repair Services",
+    "suggestions": "",
+    "ticketStatus": {
+      "key": "closed",
+      "name": "Closed"
+    },
+    "type": {
+      "key": "orderIssue",
+      "name": "Order Issue"
+    }
+  },
+  {
+    "externalReferenceCode": "a5eeacd8-6346-240d-e681-655f48c121f9",
+    "keywords": [],
+    "taxonomyCategoryIds": [],
+    "description": "I was attempting to checkout but I received an error message related to account setup",
+    "priority": {
+      "key": "critical",
+      "name": "Critical"
+    },
+    "r_accountToTickets_accountEntryId": 54639,
+    "region": {
+      "key": "lATAM",
+      "name": "LATAM"
+    },
+    "resolution": {
+      "key": "fixed",
+      "name": "Fixed"
+    },
+    "subject": "Issue with Online Order Checkout",
+    "suggestions": "",
+    "ticketStatus": {
+      "key": "closed",
+      "name": "Closed"
+    },
+    "type": {
+      "key": "siteIssue",
+      "name": "Site Issue"
+    }
+  },
+  {
+    "externalReferenceCode": "a6eeacd8-6346-240d-e681-655f48c121f9",
+    "keywords": [],
+    "taxonomyCategoryIds": [],
+    "description": "There is no sizing guide avaialble in the online store",
+    "priority": {
+      "key": "minor",
+      "name": "Minor"
+    },
+    "r_accountToTickets_accountEntryId": 54639,
+    "region": {
+      "key": "lATAM",
+      "name": "LATAM"
+    },
+    "resolution": {
+      "key": "fixed",
+      "name": "Fixed"
+    },
+    "subject": "Request for Size Guide or Measurements",
+    "suggestions": "",
+    "ticketStatus": {
+      "key": "closed",
+      "name": "Closed"
+    },
+    "type": {
+      "key": "other",
+      "name": "Other"
+    }
+  },
+  {
+    "externalReferenceCode": "a7eeacd8-6346-240d-e681-655f48c121f9",
+    "keywords": [],
+    "taxonomyCategoryIds": [],
+    "description": "What is the difference between standard and expedited shipping?",
+    "priority": {
+      "key": "minor",
+      "name": "Minor"
+    },
+    "r_accountToTickets_accountEntryId": 54639,
+    "region": {
+      "key": "lATAM",
+      "name": "LATAM"
+    },
+    "resolution": {
+      "key": "fixed",
+      "name": "Fixed"
+    },
+    "subject": "Shipping and Delivery Time Estimates",
+    "suggestions": "",
+    "ticketStatus": {
+      "key": "closed",
+      "name": "Closed"
+    },
+    "type": {
+      "key": "other",
+      "name": "Other"
+    }
+  },
+  {
+    "externalReferenceCode": "a8eeacd8-6346-240d-e681-655f48c121f9",
+    "keywords": [],
+    "taxonomyCategoryIds": [],
+    "description": "Received the incorrect prescription lenses in my last order",
+    "priority": {
+      "key": "major",
+      "name": "Major"
+    },
+    "r_accountToTickets_accountEntryId": 54639,
+    "region": {
+      "key": "lATAM",
+      "name": "LATAM"
+    },
+    "resolution": {
+      "key": "fixed",
+      "name": "Fixed"
+    },
+    "subject": "Incorrect Prescription Lenses in Order",
+    "suggestions": "",
+    "ticketStatus": {
+      "key": "closed",
+      "name": "Closed"
+    },
+    "type": {
+      "key": "orderIssue",
+      "name": "Order Issue"
+    }
+  },
+  {
+    "externalReferenceCode": "a9eeacd8-6346-240d-e681-655f48c121f9",
+    "keywords": [],
+    "taxonomyCategoryIds": [],
+    "description": "Unexpected delay in delivery of shipment",
+    "priority": {
+      "key": "major",
+      "name": "Major"
+    },
+    "r_accountToTickets_accountEntryId": 54645,
+    "region": {
+      "key": "aPAC",
+      "name": "APAC"
+    },
+    "resolution": {
+      "key": "fixed",
+      "name": "Fixed"
+    },
+    "subject": "Delay in Delivery – Need Update",
+    "suggestions": "",
+    "ticketStatus": {
+      "key": "closed",
+      "name": "Closed"
+    },
+    "type": {
+      "key": "deliveryIssue",
+      "name": "Delivery Issue"
+    }
+  },
+  {
+    "externalReferenceCode": "d7a9c5f3-8123-4ea2-bb81-93032f1e97e0",
+    "keywords": [],
+    "taxonomyCategoryIds": [],
+    "description": "How can I track my order for prescription lenses?",
+    "priority": {
+      "key": "major",
+      "name": "Major"
+    },
+    "r_accountToTickets_accountEntryId": 54651,
+    "region": {
+      "key": "nORAM",
+      "name": "NORAM"
+    },
+    "resolution": {
+      "key": "unresolved",
+      "name": "Unresolved"
+    },
+    "subject": "Order Tracking",
+    "suggestions": "",
+    "ticketStatus": {
+      "key": "open",
+      "name": "Open"
+    },
+    "type": {
+      "key": "deliveryIssue",
+      "name": "Delivery Issue"
+    }
+  },
+  {
+    "externalReferenceCode": "83b45d22-2c78-44e9-8e2f-11602cb10f3d",
+    "keywords": [],
+    "taxonomyCategoryIds": [],
+    "description": "What materials are used in your eco-friendly frames?",
+    "priority": {
+      "key": "minor",
+      "name": "Minor"
+    },
+    "r_accountToTickets_accountEntryId": 54639,
+    "region": {
+      "key": "lATAM",
+      "name": "LATAM"
+    },
+    "resolution": {
+      "key": "unresolved",
+      "name": "Unresolved"
+    },
+    "subject": "Sustainability Practices",
+    "suggestions": "",
+    "ticketStatus": {
+      "key": "open",
+      "name": "Open"
+    },
+    "type": {
+      "key": "productIssue",
+      "name": "Product Issue"
+    }
+  },
+  {
+    "externalReferenceCode": "f1a37b0a-4c88-4f22-99eb-66d53dcfc3c1",
+    "keywords": [],
+    "taxonomyCategoryIds": [],
+    "description": "Can I customize the color of my frames?",
+    "priority": {
+      "key": "major",
+      "name": "Major"
+    },
+    "r_accountToTickets_accountEntryId": 54645,
+    "region": {
+      "key": "aPAC",
+      "name": "APAC"
+    },
+    "resolution": {
+      "key": "unresolved",
+      "name": "Unresolved"
+    },
+    "subject": "Customization Options",
+    "suggestions": "",
+    "ticketStatus": {
+      "key": "inProgress",
+      "name": "In Progress"
+    },
+    "type": {
+      "key": "productIssue",
+      "name": "Product Issue"
+    }
+  },
+  {
+    "externalReferenceCode": "7ab5f620-b2e3-420b-96b5-2e10f7305f0c",
+    "keywords": [],
+    "taxonomyCategoryIds": [],
+    "description": "Do you offer blue light blocking lenses?",
+    "priority": {
+      "key": "minor",
+      "name": "Minor"
+    },
+    "r_accountToTickets_accountEntryId": 54651,
+    "region": {
+      "key": "nORAM",
+      "name": "NORAM"
+    },
+    "resolution": {
+      "key": "unresolved",
+      "name": "Unresolved"
+    },
+    "subject": "Lens Features",
+    "suggestions": "",
+    "ticketStatus": {
+      "key": "open",
+      "name": "Open"
+    },
+    "type": {
+      "key": "productIssue",
+      "name": "Product Issue"
+    }
+}
