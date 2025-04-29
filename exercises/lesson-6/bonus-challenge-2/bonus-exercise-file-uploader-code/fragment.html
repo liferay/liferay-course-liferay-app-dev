@@ -1,0 +1,36 @@
+<div id="fileupload-${fragmentEntryLinkNamespace}-element" class="form-group bg-white mb-0">
+    <label for="${fragmentEntryLinkNamespace}-text-input" id="${fragmentEntryLinkNamespace}-text-input-label">${htmlUtil.escape(input.label)}</label>
+
+    <div id="fileupload-${fragmentEntryLinkNamespace}-box" class="d-flex rounded align-items-center">
+        <div class="d-flex flex-column align-items-center c-gapy-3 bg-light p-3 rounded-lg w-100 drag-drop-target">
+            <input type="hidden" name="file-upload-status" value="2">
+
+            <div class="position-relative">
+                <div class="d-flex flex-row align-items-center">
+                    <button class="btn btn-outline-primary text-nowrap" id="${fragmentEntryLinkNamespace}-file-upload-button" type="button">[@clay.icon className="text-primary" symbol="upload" /] ${configuration.buttonText}</button>
+
+                    <span class="form-control ml-1" id="${fragmentEntryLinkNamespace}-file-chosen">No file chosen</span>
+                </div>
+
+                <input id="${fragmentEntryLinkNamespace}-file-upload-input-hidden" name="file-upload-input-hidden" type="hidden" value="${input.value!}" />
+
+                <input accept="${(input.attributes.allowedFileExtensions?has_content)?then(input.attributes.allowedFileExtensions, '*')}" aria-describedby="${fragmentEntryLinkNamespace}-file-upload-input" aria-labelledby="${fragmentEntryLinkNamespace}-file-upload-input-label" class="file-upload-input" formenctype="multipart/form-data" id="${fragmentEntryLinkNamespace}-file-upload-input" name="file-upload-input" ${input.required?then('required', '' )} type="file" value="${input.value}" />
+            </div>
+
+            [#if (input.showHelpText && input.helpText?has_content)]
+	              <p class="mb-0 text-secondary text-center" id="${fragmentEntryLinkNamespace}-file-upload-help-text">${input.helpText}</p>
+            [/#if]
+            [#if configuration.dragAndDropEnabled]
+	              <p class="mb-0 text-secondary text-center" id="${fragmentEntryLinkNamespace}-file-upload-help-text">Drag and drop a file over this box to upload</p>
+					  [/#if]
+        </div>
+    </div>
+</div>
+
+<template id="template-${fragmentEntryLinkNamespace}-loading">
+    <div class="d-flex flex-column align-items-center c-gapy-3">
+		<div class="loading-animation loading-animation-primary loading-animation-lg"></div>
+		<h4 class="font-weight-normal mb-0">${configuration.loadingTitle}</h4>
+		<p class="mb-0">${configuration.loadingHelpText}</p>
+	</div>
+</template>
