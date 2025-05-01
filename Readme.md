@@ -2,7 +2,7 @@
 
 ## Classroom Training Prerequisites
 
-Please review the course prerequisites [here](https://www.liferay.com/training/open-classroom-prerequisites).
+Please review the course prerequisites [here](https://www.liferay.com/training/classroom-prerequisites).
 
 ## Setting up environments
 
