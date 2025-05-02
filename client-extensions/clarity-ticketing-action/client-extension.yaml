@@ -1,0 +1,14 @@
+assemble:
+    - fromTask: bootJar
+clarity-ticketing-action-oauth-application-user-agent:
+    .serviceAddress: localhost:58081
+    .serviceScheme: http
+    name: Clarity Ticketing Action OAuth Application User Agent
+    scopes:
+        - Liferay.Object.Admin.REST.everything
+    type: oAuthApplicationUserAgent
+clarity-ticketing-action-object-action-ticket-suggestion:
+    name: Clarity Ticketing Suggestion
+    oAuth2ApplicationExternalReferenceCode: clarity-ticketing-action-oauth-application-user-agent
+    resourcePath: /object/action/ticket-suggestion
+    type: objectAction
