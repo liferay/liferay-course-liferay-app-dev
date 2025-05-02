@@ -1,0 +1,53 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.rest.dto.v1_0.ObjectEntry",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "UPSERT",
+			"onErrorFail": "false",
+			"updateStrategy": "UPDATE"
+		},
+		"taskItemDelegateName": "C_DistributorApplication"
+	},
+"items": [
+    {
+      "externalReferenceCode": "APPLICATION_EYE_SPY",
+      "applicationState": {
+        "key": "underReview",
+        "name": "Under Review"
+      },
+      "applicantEmailAddress": "robert@eyespyltd.demo",
+      "businessName": "Eye Spy Ltd.",
+      "businessTaxIDNumber": "32-4953459",
+      "applicantName": "Robert Green",
+      "businessWebsiteURL": "https://www.eyespyltd.demo",
+      "businessPhoneNumber": "(773) 938-3432"
+    },
+    {
+      "externalReferenceCode": "APPLICATION_NEU_VEU",
+      "applicationState": {
+        "key": "underReview",
+        "name": "Under Review"
+      },
+      "applicantEmailAddress": "shelly.lee@neuveuoptical.demo",
+      "businessName": "Neu Vue Optical",
+      "businessTaxIDNumber": "98-3423419",
+      "applicantName": "Shelly Lee",
+      "businessWebsiteURL": "https://www.newveuoptical.demo",
+      "businessPhoneNumber": "(904) 432-4355"
+    },
+    {
+      "externalReferenceCode": "APPLICATION_FAB_FRAMES",
+      "applicationState": {
+        "key": "underReview",
+        "name": "Under Review"
+      },
+      "applicantEmailAddress": "susan@fabframes.demo",
+      "businessName": "Fab Frames",
+      "businessTaxIDNumber": "65-3984531",
+      "applicantName": "Susan Peart",
+      "businessWebsiteURL": "https://www.fabframes.demo",
+      "businessPhoneNumber": "(920) 787-2343"
+    }
+  ]
+}

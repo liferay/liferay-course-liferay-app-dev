@@ -1,0 +1,32 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.rest.dto.v1_0.ObjectEntry",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "UPSERT",
+			"onErrorFail": "false",
+			"updateStrategy": "UPDATE"
+		},
+		"taskItemDelegateName": "C_DistributorValidation"
+	},
+  "items": [
+    {
+      "externalReferenceCode": "j8p8he2a-e7a4-4919-b003-957b39b14f65",
+      "applicationToValidationsERC": "APPLICATION_EYE_SPY",
+      "verificationStatus": "Submitted",
+      "r_applicationToValidations_c_distributorApplicationERC": "APPLICATION_EYE_SPY"
+    },
+    {
+      "externalReferenceCode": "eced9c29-7e9a-465b-a010-9bce57b16caa",
+      "applicationToValidationsERC": "APPLICATION_NEU_VEU",
+      "verificationStatus": "Submitted",
+      "r_applicationToValidations_c_distributorApplicationERC": "APPLICATION_NEU_VEU"
+    },
+    {
+      "externalReferenceCode": "f2271060-f4c4-4d89-8465-d1cfd26acb88",
+      "applicationToValidationsERC": "APPLICATION_FAB_FRAMES",
+      "verificationStatus": "Submitted",
+      "r_applicationToValidations_c_distributorApplicationERC": "APPLICATION_FAB_FRAMES"
+    }
+  ]
+}

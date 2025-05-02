@@ -1,0 +1,99 @@
+{
+  "configuration": {
+    "className": "com.liferay.object.admin.rest.dto.v1_0.ObjectField",
+    "parameters": {
+      "containsHeaders": "true",
+      "createStrategy": "INSERT",
+      "onErrorFail": "ON_ERROR_FAIL",
+      "updateStrategy": "UPDATE",
+      "externalReferenceCode": "D4B8_DISTRIBUTOR_VALIDATION"
+    },
+    "taskItemDelegateName": "DEFAULT"
+  },
+  "items": [
+    {
+      "indexed": true,
+      "localized": false,
+      "objectFieldSettings": [],
+      "readOnly": "false",
+      "DBType": "String",
+      "label": {
+        "en_US": "Business Type"
+      },
+      "type": "String",
+      "required": false,
+      "externalReferenceCode": "APPLICATION_VALIDATION_BUSINESS_TYPE",
+      "indexedAsKeyword": false,
+      "system": false,
+      "indexedLanguageId": "en_US",
+      "unique": false,
+      "name": "businessType",
+      "state": false,
+      "businessType": "Text",
+      "readOnlyConditionExpression": ""
+    },
+    {
+      "indexed": true,
+      "localized": false,
+      "objectFieldSettings": [],
+      "readOnly": "false",
+      "DBType": "String",
+      "label": {
+        "en_US": "Verification Status"
+      },
+      "type": "String",
+      "required": false,
+      "externalReferenceCode": "APPLICATION_VALIDATION_VERIFICATION_STATUS",
+      "indexedAsKeyword": false,
+      "system": false,
+      "indexedLanguageId": "en_US",
+      "unique": false,
+      "name": "verificationStatus",
+      "state": false,
+      "businessType": "Text",
+      "readOnlyConditionExpression": ""
+    },
+    {
+      "indexed": true,
+      "localized": false,
+      "objectFieldSettings": [],
+      "readOnly": "false",
+      "DBType": "Integer",
+      "label": {
+        "en_US": "Credit Score"
+      },
+      "type": "Integer",
+      "required": false,
+      "externalReferenceCode": "APPLICATION_VALIDATION_CREDIT_SCORE",
+      "indexedAsKeyword": false,
+      "system": false,
+      "indexedLanguageId": "",
+      "unique": false,
+      "name": "creditScore",
+      "state": false,
+      "businessType": "Integer",
+      "readOnlyConditionExpression": ""
+    },
+    {
+      "indexed": true,
+      "localized": false,
+      "objectFieldSettings": [],
+      "readOnly": "false",
+      "DBType": "String",
+      "label": {
+        "en_US": "Credit Risk Level"
+      },
+      "type": "String",
+      "required": false,
+      "externalReferenceCode": "APPLICATION_VALIDATION_CREDIT_RISK_LEVEL",
+      "indexedAsKeyword": false,
+      "system": false,
+      "indexedLanguageId": "en_US",
+      "unique": false,
+      "name": "creditRiskLevel",
+      "state": false,
+      "businessType": "Text",
+      "readOnlyConditionExpression": ""
+    }
+  ]
+}
