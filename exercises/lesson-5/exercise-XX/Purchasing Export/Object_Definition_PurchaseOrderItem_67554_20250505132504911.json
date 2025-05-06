@@ -1,0 +1,322 @@
+{
+    "enableComments": false,
+    "objectRelationships": [],
+    "objectFolderExternalReferenceCode": "PURCHASING",
+    "enableCategorization": true,
+    "accountEntryRestrictedObjectFieldName": "",
+    "className": "com.liferay.object.model.ObjectDefinition#S8T6",
+    "objectActions": [],
+    "enableLocalization": false,
+    "accountEntryRestricted": false,
+    "externalReferenceCode": "ac7e84f5-4934-03f2-417b-3289d470c895",
+    "objectFields": [
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "String",
+            "label": {
+                "en_US": "Author"
+            },
+            "type": "String",
+            "required": false,
+            "externalReferenceCode": "6e134166-d560-f449-d5d4-9322293e2f67",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "creator",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Date",
+            "label": {
+                "en_US": "Create Date"
+            },
+            "type": "Date",
+            "required": false,
+            "externalReferenceCode": "ad6943c6-525c-7443-b778-a57339c39666",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "createDate",
+            "state": false,
+            "businessType": "Date",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "String",
+            "label": {
+                "en_US": "External Reference Code"
+            },
+            "type": "String",
+            "required": false,
+            "externalReferenceCode": "b318212c-f94e-e8eb-6aad-eeba8d076189",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "externalReferenceCode",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Long",
+            "label": {
+                "en_US": "ID"
+            },
+            "type": "Long",
+            "required": false,
+            "externalReferenceCode": "d4f3f497-1765-9cd9-0251-e58bd847ab42",
+            "indexedAsKeyword": true,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "id",
+            "state": false,
+            "businessType": "LongInteger",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Date",
+            "label": {
+                "en_US": "Modified Date"
+            },
+            "type": "Date",
+            "required": false,
+            "externalReferenceCode": "cc1cf11f-8265-a822-a8a7-155e5cc6c680",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "modifiedDate",
+            "state": false,
+            "businessType": "Date",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Integer",
+            "label": {
+                "en_US": "Status"
+            },
+            "type": "Integer",
+            "required": false,
+            "externalReferenceCode": "355f8ab8-deb8-485e-2212-50d3528e701b",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "status",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "String",
+            "label": {
+                "en_US": "Item Number"
+            },
+            "type": "String",
+            "required": true,
+            "externalReferenceCode": "e4a85a1c-be83-31d5-3b85-04d511681fc6",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "en_US",
+            "unique": false,
+            "name": "itemNumber",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "String",
+            "label": {
+                "en_US": "Item Description"
+            },
+            "type": "String",
+            "required": true,
+            "externalReferenceCode": "f5a6bc1e-22ff-a35e-a2a1-55a31eed5a94",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "en_US",
+            "unique": false,
+            "name": "itemDescription",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "Integer",
+            "label": {
+                "en_US": "Quantity"
+            },
+            "type": "Integer",
+            "required": true,
+            "externalReferenceCode": "ef946744-0069-cb1f-58e6-fc2ff58ef57a",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "quantity",
+            "state": false,
+            "businessType": "Integer",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "BigDecimal",
+            "label": {
+                "en_US": "Unit Price"
+            },
+            "type": "BigDecimal",
+            "required": true,
+            "externalReferenceCode": "51d2ebdc-715c-fc02-99d3-bd2d433d0772",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "unitPrice",
+            "state": false,
+            "businessType": "PrecisionDecimal",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [
+                {
+                    "name": "output",
+                    "value": "Decimal"
+                },
+                {
+                    "name": "script",
+                    "value": "quantity * unitPrice"
+                }
+            ],
+            "readOnly": "true",
+            "DBType": "String",
+            "label": {
+                "en_US": "Total"
+            },
+            "type": "String",
+            "required": false,
+            "externalReferenceCode": "437b19eb-b425-5048-1581-c6db0d99268d",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "total",
+            "state": false,
+            "businessType": "Formula",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "relationshipType": "oneToMany",
+            "indexed": true,
+            "localized": false,
+            "objectRelationshipExternalReferenceCode": "d7278345-cfab-6e89-b710-27077b4466f4",
+            "objectFieldSettings": [
+                {
+                    "name": "objectDefinition1ShortName",
+                    "value": "PurchaseOrder"
+                },
+                {
+                    "name": "objectRelationshipERCObjectFieldName",
+                    "value": "r_purchaseOrderToPurchaseOrderItems_c_purchaseOrderERC"
+                }
+            ],
+            "readOnly": "false",
+            "DBType": "Long",
+            "label": {
+                "en_US": "Purchase Order to Purchase Order Items"
+            },
+            "type": "Long",
+            "required": false,
+            "externalReferenceCode": "401cc080-54ca-6e81-ad0e-44dca3752e61",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "r_purchaseOrderToPurchaseOrderItems_c_purchaseOrderId",
+            "objectDefinitionExternalReferenceCode1": "PURCHASE_ORDER",
+            "state": false,
+            "businessType": "Relationship",
+            "readOnlyConditionExpression": ""
+        }
+    ],
+    "restContextPath": "/o/c/purchaseorderitems",
+    "scope": "company",
+    "portlet": true,
+    "modifiable": true,
+    "parameterRequired": false,
+    "enableObjectEntryHistory": false,
+    "titleObjectFieldName": "itemDescription",
+    "objectValidationRules": [],
+    "active": true,
+    "defaultLanguageId": "en_US",
+    "enableIndexSearch": true,
+    "label": {
+        "en_US": "Purchase Order Item"
+    },
+    "panelCategoryKey": "applications_menu.applications.custom.apps",
+    "pluralLabel": {
+        "en_US": "Purchase Order Items"
+    },
+    "objectLayouts": [],
+    "system": false,
+    "objectViews": [],
+    "enableObjectEntryDraft": false,
+    "name": "PurchaseOrderItem",
+    "actions": {
+        "permissions": {},
+        "get": {},
+        "update": {},
+        "delete": {},
+        "exportObjectDefinition": {}
+    },
+    "status": {
+        "label_i18n": "Approved",
+        "code": 0,
+        "label": "approved"
+    }
+}
