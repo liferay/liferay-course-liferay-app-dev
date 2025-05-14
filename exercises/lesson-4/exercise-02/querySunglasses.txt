@@ -1,0 +1,16 @@
+query {
+  headlessCommerceAdminCatalog_v1_0 {
+    products(search:"sunglasses lenses", pageSize: 5, page:2){
+      items {
+        externalReferenceCode
+        name
+        description
+        active
+      }
+      lastPage
+      page
+      pageSize
+      totalCount      
+    }
+  }
+}
