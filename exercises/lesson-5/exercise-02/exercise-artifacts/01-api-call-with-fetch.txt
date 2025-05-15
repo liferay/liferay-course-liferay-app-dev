@@ -1,0 +1,9 @@
+const api = async (url, options = {}) => {
+	return fetch(window.location.origin + '/' + url, {
+		headers: {
+			'Content-Type': 'application/json',
+			'x-csrf-token': Liferay.authToken,
+		},
+		...options,
+	});
+};
