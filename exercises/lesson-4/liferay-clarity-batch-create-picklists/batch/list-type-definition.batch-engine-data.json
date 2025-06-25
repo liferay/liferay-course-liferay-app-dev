@@ -329,7 +329,7 @@
 			}
 		},
 		{
-			"externalReferenceCode": "APPLICATION_STATES",
+			"externalReferenceCode": "D4B8_APPLICATION_STATES",
 			"listTypeEntries": [
 				{
 					"externalReferenceCode": "APPLICATION_STATE_OPEN",
