@@ -55,6 +55,58 @@
 			"required": false,
 			"state": false,
 			"type": "String"
+		},
+		{
+			"DBType": "Clob",
+			"businessType": "LongText",
+			"externalReferenceCode": "COMMENTS",
+			"indexed": true,
+			"indexedLanguageId": "en_US",
+			"label": {
+				"en_US": "Comments"
+			},
+			"name": "comments",
+			"readOnly": "false",
+			"required": false,
+			"state": false,
+			"type": "String"
+		},
+		{
+			"DBType": "Long",
+			"businessType": "Attachment",
+			"externalReferenceCode": "BUSINESS_LICENSE",
+			"indexed": true,
+			"indexedLanguageId": "en_US",
+			"label": {
+				"en_US": "Business License"
+			},
+			"name": "businessLicense",
+			"readOnly": "false",
+			"required": false,
+			"state": false,
+			"type": "String",
+			"objectFieldSettings": [
+				{
+					"name": "acceptedFileExtensions",
+					"value": "jpeg, jpg, pdf, png"
+				},
+				{
+					"name": "maximumFileSize",
+					"value": 100
+				},
+				{
+					"name": "fileSource",
+					"value": "userComputer"
+				},
+				{
+					"name": "showFilesInDocumentsAndMedia",
+					"value": true
+				},
+				{
+					"name": "storageDLFolderPath",
+					"value": "/DistributorApplication"
+				}
+			]
 		}
 	]
 }

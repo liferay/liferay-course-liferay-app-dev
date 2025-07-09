@@ -1,0 +1,15 @@
+assemble:
+    - from: batch
+      into: batch
+distributor-verifier-batch:
+    name: Distributor Verifier Exercise Batch
+    oAuthApplicationHeadlessServer: distributor-verifier-batch-oauth-application-headless-server
+    type: batch
+distributor-verifier-batch-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Distributor Verifier Exercise OAuth Application Headless Server
+    scopes:
+        - Liferay.Headless.Batch.Engine.everything
+        - Liferay.Object.Admin.REST.everything
+    type: oAuthApplicationHeadlessServer

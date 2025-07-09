@@ -3,7 +3,7 @@
 		"className": "com.liferay.object.rest.dto.v1_0.ObjectEntry",
 		"parameters": {
 			"containsHeaders": "true",
-			"createStrategy": "UPSERT",
+			"createStrategy": "INSERT",
 			"onErrorFail": "false",
 			"updateStrategy": "UPDATE"
 		},
@@ -16,7 +16,7 @@
         "key": "underReview",
         "name": "Under Review"
       },
-      "applicantEmailAddress": "robert@eyespyltd.demo",
+      "applicantEmailAddress": "stephane.miranda@liferay.com",
       "businessName": "Eye Spy Ltd.",
       "businessTaxIDNumber": "32-4953459",
       "applicantName": "Robert Green",

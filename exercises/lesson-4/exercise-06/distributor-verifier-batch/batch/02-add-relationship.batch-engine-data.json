@@ -14,15 +14,15 @@
   "items": [
     {
       "deletionType": "cascade",
-      "externalReferenceCode": "APPLICATION_TO_VALIDATIONS",
+      "externalReferenceCode": "APPLICATION_TO_KYC",
       "label": {
-        "en_US": "Application to Validations "
+        "en_US": "Application to KYC"
       },
-      "name": "applicationToValidations",
+      "name": "applicationToKYC",
       "objectDefinitionExternalReferenceCode1": "D4B8_DISTRIBUTOR_APPLICATION",
-      "objectDefinitionExternalReferenceCode2": "D4B8_DISTRIBUTOR_VALIDATION",
+      "objectDefinitionExternalReferenceCode2": "D4B8_DISTRIBUTOR_KYC_VERIFICATION",
       "objectDefinitionModifiable2": true,
-      "objectDefinitionName2": "DistributorValidation",
+      "objectDefinitionName2": "DistributorKYCVerification",
       "objectDefinitionScope2": "company",
       "objectDefinitionSystem2": false,
       "objectField": {
@@ -33,11 +33,11 @@
         "indexedAsKeyword": false,
         "indexedLanguageId": "",
         "label": {
-          "en_US": "Application to Validations "
+          "en_US": "Application to KYC"
         },
         "listTypeDefinitionId": 0,
         "localized": false,
-        "name": "r_applicationToValidations_c_distributorApplicationId",
+        "name": "r_applicationToKYC_c_distributorApplicationId",
         "objectDefinitionExternalReferenceCode1": "D4B8_DISTRIBUTOR_APPLICATION",
         "objectFieldSettings": [
           {
@@ -46,10 +46,10 @@
           },
           {
             "name": "objectRelationshipERCObjectFieldName",
-            "value": "r_applicationToValidations_c_distributorApplicationERC"
+            "value": "r_applicationToKYC_c_distributorApplicationERC"
           }
         ],
-        "objectRelationshipExternalReferenceCode": "APPLICATION_TO_VALIDATIONS",
+        "objectRelationshipExternalReferenceCode": "APPLICATION_TO_KYC",
         "readOnly": "false",
         "readOnlyConditionExpression": "",
         "relationshipType": "oneToMany",

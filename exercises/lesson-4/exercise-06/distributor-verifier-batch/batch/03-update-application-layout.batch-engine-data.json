@@ -1,0 +1,113 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.admin.rest.dto.v1_0.ObjectLayout",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "INSERT",
+			"onErrorFail": "ON_ERROR_FAIL",
+			"updateStrategy": "UPDATE",
+			"externalReferenceCode": "D4B8_DISTRIBUTOR_APPLICATION"
+		},
+		"taskItemDelegateName": "DEFAULT"
+	},
+	"items": [
+			{
+				"objectLayoutTabs": [
+					{
+						"name": {
+							"en_US": "Application"
+						},
+						"objectLayoutBoxes": [
+							{
+								"objectLayoutRows": [
+									{
+										"objectLayoutColumns": [
+											{
+												"objectFieldName": "applicantName",
+												"size": 6,
+												"priority": 0
+											},
+											{
+												"objectFieldName": "applicantEmailAddress",
+												"size": 6,
+												"priority": 0
+											}
+										],
+										"priority": 0
+									},
+									{
+										"objectLayoutColumns": [
+											{
+												"objectFieldName": "businessName",
+												"size": 6,
+												"priority": 0
+											},
+											{
+												"objectFieldName": "businessWebsiteURL",
+												"size": 6,
+												"priority": 0
+											}
+										],
+										"priority": 0
+									},
+									{
+										"objectLayoutColumns": [
+											{
+												"objectFieldName": "businessPhoneNumber",
+												"size": 6,
+												"priority": 0
+											},
+											{
+												"objectFieldName": "businessTaxIDNumber",
+												"size": 6,
+												"priority": 0
+											}
+										],
+										"priority": 0
+									},
+									{
+										"objectLayoutColumns": [
+											{
+												"objectFieldName": "applicationState",
+												"size": 6,
+												"priority": 0
+											}
+										],
+										"priority": 0
+									}
+								],
+								"collapsable": false,
+								"name": {
+									"en_US": "General Details"
+								},
+								"priority": 0,
+								"type": "regular"
+							}
+						],
+						"priority": 0
+					},
+					{
+						"name": {
+							"en_US": "Evaluations"
+						},
+						"objectLayoutBoxes": [],
+						"objectRelationshipExternalReferenceCode": "APPLICATION_TO_EVALUATIONS",
+						"priority": 0
+					},
+					{
+						"name": {
+							"en_US": "KYC Verifications"
+						},
+						"objectLayoutBoxes": [],
+						"objectRelationshipExternalReferenceCode": "APPLICATION_TO_KYC",
+						"priority": 0
+					}
+				],
+				"objectDefinitionExternalReferenceCode": "D4B8_DISTRIBUTOR_APPLICATION",
+				"name": {
+					"en_US": "Basic Layout"
+				},
+				"defaultObjectLayout": true
+			}
+	]
+}

@@ -6,7 +6,7 @@
 			"createStrategy": "INSERT",
 			"onErrorFail": "ON_ERROR_FAIL",
 			"updateStrategy": "UPDATE",
-			"externalReferenceCode": "D4B8_DISTRIBUTOR_VALIDATION"
+			"externalReferenceCode": "D4B8_DISTRIBUTOR_KYC_VERIFICATION"
 		},
 		"taskItemDelegateName": "DEFAULT"
 	},
@@ -16,34 +16,27 @@
 			"name": {
 				"en_US": "Basic View"
 			},
-			"objectDefinitionExternalReferenceCode": "D4B8_DISTRIBUTOR_VALIDATION",
+			"objectDefinitionExternalReferenceCode": "D4B8_DISTRIBUTOR_KYC_VERIFICATION",
 			"objectViewColumns": [
 				{
 					"label": {
-						"en_US": "External Reference Code"
+						"en_US": "ID"
 					},
-					"objectFieldName": "externalReferenceCode",
+					"objectFieldName": "id",
 					"priority": 0
 				},
 				{
 					"label": {
-						"en_US": "Business Legal Name"
+						"en_US": "Business Name"
 					},
-					"objectFieldName": "businessLegalName",
+					"objectFieldName": "businessName",
 					"priority": 1
 				},
 				{
 					"label": {
-						"en_US": "Credit Score"
+						"en_US": "KYC Status"
 					},
-					"objectFieldName": "creditScore",
-					"priority": 2
-				},
-				{
-					"label": {
-						"en_US": "Credit Risk Level"
-					},
-					"objectFieldName": "creditRiskLevel",
+					"objectFieldName": "kYCStatus",
 					"priority": 3
 				}
 			]

@@ -6,7 +6,7 @@
 			"createStrategy": "INSERT",
 			"onErrorFail": "ON_ERROR_FAIL",
 			"updateStrategy": "UPDATE",
-			"externalReferenceCode": "D4B8_DISTRIBUTOR_VALIDATION"
+			"externalReferenceCode": "D4B8_DISTRIBUTOR_KYC_VERIFICATION"
 		},
 		"taskItemDelegateName": "DEFAULT"
 	},
@@ -16,11 +16,11 @@
 			"name": {
 				"en_US": "Basic Layout"
 			},
-			"objectDefinitionExternalReferenceCode": "D4B8_DISTRIBUTOR_VALIDATION",
+			"objectDefinitionExternalReferenceCode": "D4B8_DISTRIBUTOR_KYC_VERIFICATION",
 			"objectLayoutTabs": [
 				{
 					"name": {
-						"en_US": "Validation"
+						"en_US": "Verification"
 					},
 					"objectLayoutBoxes": [
 						{
@@ -32,12 +32,12 @@
 								{
 									"objectLayoutColumns": [
 										{
-											"objectFieldName": "verificationStatus",
+											"objectFieldName": "kYCStatus",
 											"priority": 0,
 											"size": 6
 										},
 										{
-											"objectFieldName": "validatedBusinessEIN",
+											"objectFieldName": "submittedBusinessEIN",
 											"priority": 0,
 											"size": 6
 										}
@@ -47,7 +47,7 @@
 								{
 									"objectLayoutColumns": [
 										{
-											"objectFieldName": "businessLegalName",
+											"objectFieldName": "businessName",
 											"priority": 0,
 											"size": 6
 										},
@@ -62,12 +62,12 @@
 								{
 									"objectLayoutColumns": [
 										{
-											"objectFieldName": "creditScore",
+											"objectFieldName": "kYCVerificationState",
 											"priority": 0,
 											"size": 6
 										},
 										{
-											"objectFieldName": "creditRiskLevel",
+											"objectFieldName": "kYCResponse",
 											"priority": 0,
 											"size": 6
 										}
@@ -92,7 +92,7 @@
 								{
 									"objectLayoutColumns": [
 										{
-											"objectFieldName": "r_applicationToValidations_c_distributorApplicationId",
+											"objectFieldName": "r_applicationToKYC_c_distributorApplicationId",
 											"priority": 0,
 											"size": 12
 										}
