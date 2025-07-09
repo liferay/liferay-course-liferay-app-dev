@@ -1,0 +1,3 @@
+[#if (input.showHelpText && input.helpText?has_content)]
+	<p class="mb-0 text-secondary text-center" id="${fragmentEntryLinkNamespace}-file-upload-help-text">${input.helpText}</p>
+[/#if]
