@@ -327,6 +327,63 @@
 			"name_i18n": {
 				"en-US": "Recommendations"
 			}
+		},
+		{
+			"externalReferenceCode": "D4B8_APPLICATION_STATES",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "APPLICATION_STATE_OPEN",
+					"key": "open",
+					"name": "Open",
+					"name_i18n": {
+						"en-US": "Open"
+					}
+				},
+				{
+					"externalReferenceCode": "APPLICATION_STATE_UNDER_REVIEW",
+					"key": "underReview",
+					"name": "Under Review",
+					"name_i18n": {
+						"en-US": "Under Review"
+					}
+				},
+				{
+					"externalReferenceCode": "APPLICATION_STATE_APPROVED",
+					"key": "approved",
+					"name": "Approved",
+					"name_i18n": {
+						"en-US": "Approved"
+					}
+				},
+				{
+					"externalReferenceCode": "APPLICATION_STATE_WITHDRAWN",
+					"key": "withdrawn",
+					"name": "Withdrawn",
+					"name_i18n": {
+						"en-US": "Withdrawn"
+					}
+				},
+				{
+					"externalReferenceCode": "APPLICATION_STATE_DENIED",
+					"key": "denied",
+					"name": "Denied",
+					"name_i18n": {
+						"en-US": "Denied"
+					}
+				},
+				{
+					"externalReferenceCode": "APPLICATION_STATE_ON_HOLD",
+					"key": "onHold",
+					"name": "On Hold",
+					"name_i18n": {
+						"en-US": "On Hold"
+					}
+				}
+			],
+			"name": "Application States",
+			"name_i18n": {
+				"en-US": "Application States"
+			}
 		}
 	]
 }
