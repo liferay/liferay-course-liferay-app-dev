@@ -1,0 +1,53 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.rest.dto.v1_0.ObjectEntry",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "INSERT",
+			"onErrorFail": "false",
+			"updateStrategy": "UPDATE"
+		},
+		"taskItemDelegateName": "C_DistributorKYCVerification"
+	},
+  "items": [
+    {
+      "externalReferenceCode": "j8p8he2a-e7a4-4919-b003-957b39b14f65",
+      "applicationToKYCERC": "APPLICATION_EYE_SPY",
+      "applicationState": {
+        "key": "underReview",
+        "name": "Under Review"
+      },
+      "businessName": "Eye Spy Ltd.",
+      "submittedBusinessEIN": "32-4953459",
+      "businessType": "Limited Partnership",
+      "kYCStatus": "Submitted",
+      "r_applicationToKYC_c_distributorApplicationERC": "APPLICATION_EYE_SPY"
+    },
+    {
+      "externalReferenceCode": "eced9c29-7e9a-465b-a010-9bce57b16caa",
+      "applicationToKYCERC": "APPLICATION_NEU_VEU",
+      "applicationState": {
+        "key": "underReview",
+        "name": "Under Review"
+      },
+      "businessName": "Neu Vue Optical",
+      "submittedBusinessEIN": "98-3423419",
+      "businessType": "Sole Proprietorship",
+      "kYCStatus": "Submitted",
+      "r_applicationToKYC_c_distributorApplicationERC": "APPLICATION_NEU_VEU"
+    },
+    {
+      "externalReferenceCode": "f2271060-f4c4-4d89-8465-d1cfd26acb88",
+      "applicationToKYCERC": "APPLICATION_FAB_FRAMES",
+      "applicationState": {
+        "key": "underReview",
+        "name": "Under Review"
+      },
+      "businessName": "Fab Frames",
+      "submittedBusinessEIN": "65-3984531",
+      "businessType": "Partnership",
+      "kYCStatus": "Submitted",
+      "r_applicationToKYC_c_distributorApplicationERC": "APPLICATION_FAB_FRAMES"
+    }
+  ]
+}

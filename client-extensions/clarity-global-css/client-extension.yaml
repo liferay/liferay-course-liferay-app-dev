@@ -1,0 +1,6 @@
+assemble:
+    - include: static/*.css
+clarity-global-css:
+    name: Clarity Global CSS
+    type: globalCSS
+    url: global.*.css

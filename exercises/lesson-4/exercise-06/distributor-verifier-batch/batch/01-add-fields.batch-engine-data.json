@@ -1,0 +1,176 @@
+{
+  "configuration": {
+    "className": "com.liferay.object.admin.rest.dto.v1_0.ObjectField",
+    "parameters": {
+      "containsHeaders": "true",
+      "createStrategy": "INSERT",
+      "onErrorFail": "ON_ERROR_FAIL",
+      "updateStrategy": "UPDATE",
+      "externalReferenceCode": "D4B8_DISTRIBUTOR_KYC_VERIFICATION"
+    },
+    "taskItemDelegateName": "DEFAULT"
+  },
+  "items": [
+    {
+      "indexed": true,
+      "localized": false,
+      "objectFieldSettings": [],
+      "readOnly": "false",
+      "DBType": "String",
+      "label": {
+        "en_US": "KYC Status"
+      },
+      "type": "String",
+      "required": true,
+      "externalReferenceCode": "APPLICATION_VERIFICATION_KYC_STATUS",
+      "indexedAsKeyword": false,
+      "system": false,
+      "indexedLanguageId": "en_US",
+      "unique": false,
+      "name": "kYCStatus",
+      "state": false,
+      "businessType": "Text",
+      "readOnlyConditionExpression": ""
+    },
+    {
+      "indexed": true,
+      "localized": false,
+      "objectFieldSettings": [],
+      "readOnly": "false",
+      "DBType": "String",
+      "label": {
+        "en_US": "Business Address"
+      },
+      "type": "String",
+      "required": false,
+      "externalReferenceCode": "APPLICATION_VERIFICATION_BUSINESS_ADDRESS",
+      "indexedAsKeyword": false,
+      "system": false,
+      "indexedLanguageId": "en_US",
+      "unique": false,
+      "name": "businessAddress",
+      "state": false,
+      "businessType": "Text",
+      "readOnlyConditionExpression": ""
+    },
+    {
+      "indexed": true,
+      "localized": false,
+      "objectFieldSettings": [],
+      "readOnly": "false",
+      "DBType": "String",
+      "label": {
+        "en_US": "Business Type"
+      },
+      "type": "String",
+      "required": true,
+      "externalReferenceCode": "APPLICATION_VERIFICATION_BUSINESS_TYPE",
+      "indexedAsKeyword": false,
+      "system": false,
+      "indexedLanguageId": "en_US",
+      "unique": false,
+      "name": "businessType",
+      "state": false,
+      "businessType": "Text",
+      "readOnlyConditionExpression": ""
+    },
+    {
+      "listTypeDefinitionExternalReferenceCode": "KYC_VERIFICATION_STATES",
+      "indexed": true,
+      "defaultValue": "underReview",
+      "localized": false,
+      "objectFieldSettings": [
+        {
+          "name": "stateFlow",
+          "value": {
+            "objectStates": [
+              {
+                "objectStateTransitions": [
+                  {
+                    "key": "approved"
+                  },
+                  {
+                    "key": "denied"
+                  }
+                ],
+                "key": "underReview"
+              },
+              {
+                "objectStateTransitions": [
+                  {
+                    "key": "underReview"
+                  },
+                  {
+                    "key": "denied"
+                  }
+                ],
+                "key": "approved"
+              },
+              {
+                "objectStateTransitions": [
+                  {
+                    "key": "underReview"
+                  },
+                  {
+                    "key": "approved"
+                  }
+                ],
+                "key": "denied"
+              }
+            ]
+          }
+        },
+        {
+          "name": "defaultValueType",
+          "value": "inputAsValue"
+        },
+        {
+          "name": "defaultValue",
+          "value": "underReview"
+        }
+      ],
+      "readOnly": "false",
+      "DBType": "String",
+      "label": {
+        "en_US": "KYC Verification State"
+      },
+      "type": "String",
+      "required": true,
+      "externalReferenceCode": "APPLICATION_VERIFICATION_APPLICATION_STATE",
+      "indexedAsKeyword": false,
+      "system": false,
+      "indexedLanguageId": "en_US",
+      "unique": false,
+      "name": "kYCVerificationState",
+      "state": true,
+      "businessType": "Picklist",
+      "readOnlyConditionExpression": ""
+    },
+    {
+      "indexed": true,
+      "localized": false,
+      "objectFieldSettings": [
+        {
+          "name": "showCounter",
+          "value": false
+        }
+      ],
+      "readOnly": "false",
+      "DBType": "Clob",
+      "label": {
+        "en_US": "KYC Response"
+      },
+      "type": "Clob",
+      "required": false,
+      "externalReferenceCode": "APPLICATION_VERIFICATION_KYC_RESPONSE",
+      "indexedAsKeyword": false,
+      "system": false,
+      "indexedLanguageId": "en_US",
+      "unique": false,
+      "name": "kYCResponse",
+      "state": false,
+      "businessType": "LongText",
+      "readOnlyConditionExpression": ""
+    }
+  ]
+}

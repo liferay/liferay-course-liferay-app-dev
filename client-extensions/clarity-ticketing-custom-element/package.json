@@ -1,0 +1,39 @@
+{
+	"dependencies": {
+		"@clayui/button": "^3.111.0",
+		"@clayui/core": "^3.112.0",
+		"@clayui/form": "^3.111.0",
+		"@clayui/icon": "^3.111.0",
+		"@clayui/nav": "^3.112.0",
+		"@clayui/pagination-bar": "^3.112.0",
+		"@clayui/panel": "^3.111.0",
+		"@dnd-kit/core": "^6.1.0",
+		"@dnd-kit/utilities": "^3.2.2",
+		"@yaireo/relative-time": "^1.0.4",
+		"react": "16.12.0",
+		"react-data-grid": "7.0.0-canary.49",
+		"react-dom": "16.12.0",
+		"react-query": "^3.39.3"
+	},
+	"devDependencies": {
+		"@types/react": "16.14.58",
+		"@types/react-dom": "16.9.9",
+		"@vitejs/plugin-react": "^4.2.1",
+		"typescript": "^4.2.2",
+		"vite": "^5.2.2"
+	},
+	"eslintConfig": {
+		"globals": {
+			"Liferay": true
+		}
+	},
+	"name": "@liferay/clarity-ticketing-dashboard-custom-element",
+	"private": true,
+	"scripts": {
+		"build": "tsc && vite build",
+		"dev": "vite",
+		"preview": "vite preview"
+	},
+	"type": "module",
+	"version": "0.0.0"
+}

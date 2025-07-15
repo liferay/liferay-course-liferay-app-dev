@@ -1,10 +1,9 @@
 assemble:
     - from: build/buildTheme/img
       into: static/img
-    - from: assets
-      into: static
 clarity-theme:
     clayURL: css/clay.css
+    frontendTokenDefinitionJSON: src/frontend-token-definition.json
     mainURL: css/main.css
     name: Clarity Theme CSS
     type: themeCSS

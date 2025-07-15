@@ -1,0 +1,70 @@
+{
+  "actions": {
+    "get": {
+      "method": "GET",
+      "href": "http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/products/51559"
+    },
+    "update": {
+      "method": "PATCH",
+      "href": "http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/products/51559"
+    },
+    "delete": {
+      "method": "DELETE",
+      "href": "http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/products/51559"
+    }
+  },
+  "active": true,
+  "catalogExternalReferenceCode": "1dbe51ae-7272-de41-97bc-aa62ed8669e6",
+  "catalogId": 51546,
+  "categories": [
+    {
+      "externalReferenceCode": "f0945568-2d4e-f5e4-6934-bc690bbc3f25",
+      "id": 32613,
+      "name": "Sunglasses",
+      "vocabulary": "clarity products"
+    }
+  ],
+  "createDate": "2024-08-29T16:13:36Z",
+  "customFields": [],
+  "description": {
+    "en_US": "<p>Introducing our must-have accessory for sunny days – our classic\n  aviator sunglasses! 🕶️</p>\n<p>Whether you're lounging on the beach, driving with the top down, or\n  just enjoying a leisurely walk, these sunglasses are the perfect blend\n  of style and functionality. The timeless aviator design never goes out\n  of fashion, making them a versatile choice for any outfit or occasion.</p>\n<p>Crafted with high-quality materials, these sunglasses offer not only\n  a sleek look but also durability to withstand your fun-filled outdoor\n  adventures. The UV-protective lenses ensure your eyes stay safe from\n  the sun's harmful rays, so you can focus on soaking up the sunshine.</p>\n<p>With a comfortable fit and lightweight feel, you'll forget you're\n  even wearing them – until you catch a glimpse of your stylish self,\n  that is! So why not elevate your sunny day look with our classic\n  aviator sunglasses? Trust us, you won't want to leave home without\n  them! 😎</p>"
+  },
+  "displayDate": "2024-08-29T16:13:00Z",
+  "expando": {},
+  "externalReferenceCode": "3d607d51-b58d-d188-5a27-03041440d340",
+  "id": 51558,
+  "metaDescription": {
+    "en_US": ""
+  },
+  "metaKeyword": {
+    "en_US": ""
+  },
+  "metaTitle": {
+    "en_US": ""
+  },
+  "modifiedDate": "2024-08-29T16:18:42Z",
+  "name": {
+    "en_US": "Classic Aviator Sunglasses"
+  },
+  "productAccountGroupFilter": false,
+  "productChannelFilter": false,
+  "productId": 51559,
+  "productStatus": 0,
+  "productType": "simple",
+  "productTypeI18n": "Simple",
+  "shortDescription": {
+    "en_US": ""
+  },
+  "skuFormatted": "default",
+  "tags": [],
+  "thumbnail": "/o/commerce-media/accounts/-9223372036854775808/images/51570?download=false",
+  "urls": {
+    "en_US": "classic-aviator-sunglasses"
+  },
+  "version": 1,
+  "workflowStatusInfo": {
+    "code": 0,
+    "label": "approved",
+    "label_i18n": "Approved"
+  }
+}

@@ -1,0 +1,112 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.admin.rest.dto.v1_0.ObjectField",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "INSERT",
+			"onErrorFail": "false",
+			"updateStrategy": "UPDATE",
+			"externalReferenceCode": "D4B8_DISTRIBUTOR_APPLICATION"
+		},
+		"taskItemDelegateName": "DEFAULT"
+	},
+	"items": [
+		{
+			"DBType": "String",
+			"businessType": "Text",
+			"externalReferenceCode": "BUSINESS_PHONE_NUMBER",
+			"indexed": true,
+			"indexedLanguageId": "en_US",
+			"label": {
+				"en_US": "Business Phone Number"
+			},
+			"name": "businessPhoneNumber",
+			"readOnly": "false",
+			"required": false,
+			"state": false,
+			"type": "String"
+		},
+		{
+			"DBType": "String",
+			"businessType": "Text",
+			"externalReferenceCode": "BUSINESS_TAX_ID_NUMBER",
+			"indexed": true,
+			"indexedLanguageId": "en_US",
+			"label": {
+				"en_US": "Business Tax ID Number"
+			},
+			"name": "businessTaxIDNumber",
+			"readOnly": "false",
+			"required": true,
+			"state": false,
+			"type": "String"
+		},
+		{
+			"DBType": "String",
+			"businessType": "Text",
+			"externalReferenceCode": "BUSINESS_WEBSITE_URL",
+			"indexed": true,
+			"indexedLanguageId": "en_US",
+			"label": {
+				"en_US": "Business Website URL"
+			},
+			"name": "businessWebsiteURL",
+			"readOnly": "false",
+			"required": false,
+			"state": false,
+			"type": "String"
+		},
+		{
+			"DBType": "Clob",
+			"businessType": "LongText",
+			"externalReferenceCode": "COMMENTS",
+			"indexed": true,
+			"indexedLanguageId": "en_US",
+			"label": {
+				"en_US": "Comments"
+			},
+			"name": "comments",
+			"readOnly": "false",
+			"required": false,
+			"state": false,
+			"type": "String"
+		},
+		{
+			"DBType": "Long",
+			"businessType": "Attachment",
+			"externalReferenceCode": "BUSINESS_LICENSE",
+			"indexed": true,
+			"indexedLanguageId": "en_US",
+			"label": {
+				"en_US": "Business License"
+			},
+			"name": "businessLicense",
+			"readOnly": "false",
+			"required": false,
+			"state": false,
+			"type": "String",
+			"objectFieldSettings": [
+				{
+					"name": "acceptedFileExtensions",
+					"value": "jpeg, jpg, pdf, png"
+				},
+				{
+					"name": "maximumFileSize",
+					"value": 100
+				},
+				{
+					"name": "fileSource",
+					"value": "userComputer"
+				},
+				{
+					"name": "showFilesInDocumentsAndMedia",
+					"value": true
+				},
+				{
+					"name": "storageDLFolderPath",
+					"value": "/DistributorApplication"
+				}
+			]
+		}
+	]
+}

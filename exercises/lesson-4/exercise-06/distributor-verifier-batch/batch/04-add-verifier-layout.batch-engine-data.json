@@ -1,0 +1,113 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.admin.rest.dto.v1_0.ObjectLayout",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "INSERT",
+			"onErrorFail": "ON_ERROR_FAIL",
+			"updateStrategy": "UPDATE",
+			"externalReferenceCode": "D4B8_DISTRIBUTOR_KYC_VERIFICATION"
+		},
+		"taskItemDelegateName": "DEFAULT"
+	},
+	"items": [
+		{
+			"defaultObjectLayout": true,
+			"name": {
+				"en_US": "Basic Layout"
+			},
+			"objectDefinitionExternalReferenceCode": "D4B8_DISTRIBUTOR_KYC_VERIFICATION",
+			"objectLayoutTabs": [
+				{
+					"name": {
+						"en_US": "Verification"
+					},
+					"objectLayoutBoxes": [
+						{
+							"collapsable": false,
+							"name": {
+								"en_US": "General Information"
+							},
+							"objectLayoutRows": [
+								{
+									"objectLayoutColumns": [
+										{
+											"objectFieldName": "kYCStatus",
+											"priority": 0,
+											"size": 6
+										},
+										{
+											"objectFieldName": "submittedBusinessEIN",
+											"priority": 0,
+											"size": 6
+										}
+									],
+									"priority": 0
+								},
+								{
+									"objectLayoutColumns": [
+										{
+											"objectFieldName": "businessName",
+											"priority": 0,
+											"size": 6
+										},
+										{
+											"objectFieldName": "businessType",
+											"priority": 0,
+											"size": 6
+										}
+									],
+									"priority": 0
+								},
+								{
+									"objectLayoutColumns": [
+										{
+											"objectFieldName": "kYCVerificationState",
+											"priority": 0,
+											"size": 6
+										},
+										{
+											"objectFieldName": "kYCResponse",
+											"priority": 0,
+											"size": 6
+										}
+									],
+									"priority": 0
+								},
+								{
+									"objectLayoutColumns": [
+										{
+											"objectFieldName": "externalReferenceCode",
+											"priority": 0,
+											"size": 6
+										},
+										{
+											"objectFieldName": "modifiedDate",
+											"priority": 0,
+											"size": 6
+										}
+									],
+									"priority": 0
+								},
+								{
+									"objectLayoutColumns": [
+										{
+											"objectFieldName": "r_applicationToKYC_c_distributorApplicationId",
+											"priority": 0,
+											"size": 12
+										}
+									],
+									"priority": 0
+								}
+							],
+							"priority": 0,
+							"type": "regular"
+						}
+					],
+					"objectRelationshipId": 0,
+					"priority": 0
+				}
+			]
+		}
+	]
+}
