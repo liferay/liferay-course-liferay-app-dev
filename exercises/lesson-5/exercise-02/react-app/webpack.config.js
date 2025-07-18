@@ -59,8 +59,6 @@ module.exports = {
 			module: true,
 		},
 		filename: WEBPACK_SERVE ? '[name].js' : '[name].[contenthash].js',
-		// Here we set the library format, which specifies how the output 
-		// bundle should be exposed
 		path: path.resolve('build', 'static'),
 	},
 	plugins: [
