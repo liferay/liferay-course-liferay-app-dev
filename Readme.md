@@ -1,4 +1,4 @@
-# Modern Liferay Application Developer
+# Liferay Application Developer
 
 ## Classroom Training Prerequisites
 
