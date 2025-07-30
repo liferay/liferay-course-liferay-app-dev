@@ -1,0 +1,15 @@
+{
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"esbuild": "^0.20.2"
+	},
+	"name": "@liferay/liferay-sample-custom-element-2",
+	"private": true,
+	"scripts": {
+		"build": "esbuild src/index.js --outdir=build/static --bundle --entry-names=[name].[hash] --format=esm --external:react --external:react-dom --external:@liferay/oauth2-provider-web/client --loader:.js=jsx"
+	},
+	"version": "0.0.0"
+}
