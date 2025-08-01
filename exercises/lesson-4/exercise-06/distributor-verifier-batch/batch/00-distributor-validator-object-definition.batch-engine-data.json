@@ -1,0 +1,121 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.model.ObjectDefinition#V1V2",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "UPSERT",
+			"onErrorFail": "false",
+			"updateStrategy": "UPDATE"
+		},
+		"taskItemDelegateName": "DEFAULT"
+	},
+	"enableComments": false,
+	"objectRelationships": [],
+	"objectFolderExternalReferenceCode": "D4B8_DISTRIBUTOR_MANAGEMENT",
+	"enableCategorization": true,
+	"accountEntryRestrictedObjectFieldName": "",
+	"objectActions": [],
+	"enableLocalization": false,
+	"accountEntryRestricted": false,
+	"externalReferenceCode": "D4B8_DISTRIBUTOR_VALIDATION",
+	"items": [
+		{
+			"indexed": true,
+			"localized": false,
+			"objectFieldSettings": [],
+			"readOnly": "false",
+			"DBType": "String",
+			"label": {
+				"en_US": "Business Name"
+			},
+			"type": "String",
+			"required": false,
+			"externalReferenceCode": "089d5faf-ca31-b31a-8344-201469ce3bb1",
+			"indexedAsKeyword": false,
+			"system": false,
+			"indexedLanguageId": "en_US",
+			"unique": false,
+			"name": "businessName",
+			"state": false,
+			"businessType": "Text",
+			"readOnlyConditionExpression": ""
+		},
+		{
+			"indexed": true,
+			"localized": false,
+			"objectFieldSettings": [],
+			"readOnly": "false",
+			"DBType": "String",
+			"label": {
+				"en_US": "Validated Tax ID"
+			},
+			"type": "String",
+			"required": false,
+			"externalReferenceCode": "2cac2e2c-8338-ed32-9d24-0154933f693a",
+			"indexedAsKeyword": false,
+			"system": false,
+			"indexedLanguageId": "en_US",
+			"unique": false,
+			"name": "validatedBusinessEIN",
+			"state": false,
+			"businessType": "Text",
+			"readOnlyConditionExpression": ""
+		},
+		{
+			"indexed": true,
+			"localized": false,
+			"objectFieldSettings": [],
+			"readOnly": "false",
+			"DBType": "String",
+			"label": {
+				"en_US": "Business Tax ID"
+			},
+			"type": "String",
+			"required": true,
+			"externalReferenceCode": "ab21c03f-5adc-2fde-8466-093595c0f3a5",
+			"indexedAsKeyword": false,
+			"system": false,
+			"indexedLanguageId": "en_US",
+			"unique": false,
+			"name": "submittedBusinessEIN",
+			"state": false,
+			"businessType": "Text",
+			"readOnlyConditionExpression": ""
+		}
+	],
+	"restContextPath": "/o/c/distributorkycverifications",
+	"scope": "company",
+	"portlet": true,
+	"modifiable": true,
+	"parameterRequired": false,
+	"enableObjectEntryHistory": false,
+	"titleObjectFieldName": "businessName",
+	"objectValidationRules": [],
+	"active": true,
+	"defaultLanguageId": "en_US",
+	"enableIndexSearch": true,
+	"label": {
+		"en_US": "Distributor KYC Verification"
+	},
+	"panelCategoryKey": "",
+	"pluralLabel": {
+		"en_US": "Distributor KYC Verifications"
+	},
+	"objectLayouts": [],
+	"system": false,
+	"objectViews": [],
+	"enableObjectEntryDraft": false,
+	"name": "DistributorKYCVerification",
+	"actions": {
+		"permissions": {},
+		"get": {},
+		"update": {},
+		"delete": {},
+		"exportObjectDefinition": {}
+	},
+	"status": {
+		"label_i18n": "Approved",
+		"code": 0,
+		"label": "approved"
+	}
+}

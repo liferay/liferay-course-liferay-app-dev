@@ -1,0 +1,45 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.admin.rest.dto.v1_0.ObjectView",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "INSERT",
+			"onErrorFail": "ON_ERROR_FAIL",
+			"updateStrategy": "UPDATE",
+			"externalReferenceCode": "D4B8_DISTRIBUTOR_KYC_VERIFICATION"
+		},
+		"taskItemDelegateName": "DEFAULT"
+	},
+	"items": [
+		{
+			"defaultObjectView": true,
+			"name": {
+				"en_US": "Basic View"
+			},
+			"objectDefinitionExternalReferenceCode": "D4B8_DISTRIBUTOR_KYC_VERIFICATION",
+			"objectViewColumns": [
+				{
+					"label": {
+						"en_US": "ID"
+					},
+					"objectFieldName": "id",
+					"priority": 0
+				},
+				{
+					"label": {
+						"en_US": "Business Name"
+					},
+					"objectFieldName": "businessName",
+					"priority": 1
+				},
+				{
+					"label": {
+						"en_US": "KYC Status"
+					},
+					"objectFieldName": "kYCStatus",
+					"priority": 3
+				}
+			]
+		}
+	]
+}

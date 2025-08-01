@@ -1,0 +1,196 @@
+{
+    "enableComments": true,
+    "objectRelationships": [],
+    "objectFolderExternalReferenceCode": "D4B8_DISTRIBUTOR_MANAGEMENT",
+    "enableCategorization": true,
+    "accountEntryRestrictedObjectFieldName": "",
+    "className": "com.liferay.object.model.ObjectDefinition#O3R6",
+    "objectActions": [],
+    "enableLocalization": false,
+    "accountEntryRestricted": false,
+    "externalReferenceCode": "D4B8_APPLICATION_EVALUATION",
+    "objectFields": [
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "String",
+            "label": {
+                "en_US": "Author"
+            },
+            "type": "String",
+            "required": false,
+            "externalReferenceCode": "05f91fd2-397a-da32-2844-0b924a1c654f",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "creator",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Date",
+            "label": {
+                "en_US": "Create Date"
+            },
+            "type": "Date",
+            "required": false,
+            "externalReferenceCode": "a45c3360-d0b4-386e-a494-2c90c5e5e8c2",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "createDate",
+            "state": false,
+            "businessType": "Date",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "String",
+            "label": {
+                "en_US": "External Reference Code"
+            },
+            "type": "String",
+            "required": false,
+            "externalReferenceCode": "5a33c383-06aa-e3d0-232a-2f52a9312961",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "externalReferenceCode",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Long",
+            "label": {
+                "en_US": "ID"
+            },
+            "type": "Long",
+            "required": false,
+            "externalReferenceCode": "e9378f9e-8c24-b9ef-d445-9f172bfc0b48",
+            "indexedAsKeyword": true,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "id",
+            "state": false,
+            "businessType": "LongInteger",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Date",
+            "label": {
+                "en_US": "Modified Date"
+            },
+            "type": "Date",
+            "required": false,
+            "externalReferenceCode": "37de06a1-ff74-612e-ffa1-555cc7f987bc",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "modifiedDate",
+            "state": false,
+            "businessType": "Date",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Integer",
+            "label": {
+                "en_US": "Status"
+            },
+            "type": "Integer",
+            "required": false,
+            "externalReferenceCode": "3586797e-0f9e-d1e2-a393-7b7d54ddfdec",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "status",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "Clob",
+            "label": {
+                "en_US": "Interview Notes"
+            },
+            "type": "Clob",
+            "required": false,
+            "externalReferenceCode": "5dd9af71-9ca7-1330-9f10-d1bd9b9d58bb",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "en_US",
+            "unique": false,
+            "name": "interviewNotes",
+            "state": false,
+            "businessType": "RichText",
+            "readOnlyConditionExpression": ""
+        }
+    ],
+    "restContextPath": "/o/c/applicationevaluations",
+    "scope": "company",
+    "portlet": false,
+    "modifiable": true,
+    "parameterRequired": false,
+    "enableObjectEntryHistory": false,
+    "titleObjectFieldName": "id",
+    "objectValidationRules": [],
+    "active": true,
+    "defaultLanguageId": "en_US",
+    "enableIndexSearch": true,
+    "label": {
+        "en_US": "Application Evaluation"
+    },
+    "panelCategoryKey": "applications_menu.applications.content",
+    "pluralLabel": {
+        "en_US": "Application Evaluations"
+    },
+    "objectLayouts": [],
+    "system": false,
+    "objectViews": [],
+    "enableObjectEntryDraft": false,
+    "name": "ApplicationEvaluation",
+    "actions": {
+        "permissions": {},
+        "get": {},
+        "update": {},
+        "delete": {},
+        "exportObjectDefinition": {}
+    },
+    "status": {
+        "label_i18n": "Approved",
+        "code": 0,
+        "label": "approved"
+    }
+}

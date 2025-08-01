@@ -1,0 +1,19 @@
+assemble:
+    -   from: build/static
+        into: static
+liferay-sample-custom-element-2:
+    friendlyURLMapping: liferay-sample-custom-element-2
+    htmlElementName: liferay-sample-custom-element-2
+    instanceable: false
+    name: Liferay Sample Custom Element 2
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        -   index.*.js
+    useESM: true
+liferay-react-dom-client-import-maps-entry:
+    bareSpecifier: react-dom/client
+    name: Liferay React DOM Client Import Maps Entry
+    type: jsImportMapsEntry
+    url: https://esm.sh/react-dom@18.2.0/client?external=react-dom
+    

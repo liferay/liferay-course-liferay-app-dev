@@ -1,0 +1,13 @@
+assemble:
+    - from: build/static
+      into: static
+clarity-ticketing-ui:
+   friendlyURLMapping: clarity-ticketing-ui
+   htmlElementName: clarity-ticketing-ui
+   instanceable: false
+   name: Clarity Ticketing UI
+   portletCategoryName: category.client-extensions
+   type: customElement
+   urls:
+      - index.*.js
+   useESM: true

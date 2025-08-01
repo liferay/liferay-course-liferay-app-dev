@@ -100,3 +100,14 @@ button.facet-clear-btn > strong {
 .lfr-layout-structure-item-com-liferay-commerce-product-content-search-web-internal-portlet-cpspecificationoptionfacetsportlet .panel-collapse{
     padding-left: 1rem;
 }
+@media(max-width: 480px) {
+    .navbar-blank.navbar-nav.navbar-site {
+        justify-content: center;
+        font-size: 0.875rem;
+    }
+}
+@media(max-width: 768px) {
+    .navbar-blank.navbar-nav.navbar-site {
+        justify-content: center;
+    }
+}

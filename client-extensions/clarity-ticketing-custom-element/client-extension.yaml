@@ -1,0 +1,15 @@
+assemble:
+    - from: build/vite
+      into: static
+clarity-ticketing-dashboard-custom-element:
+    friendlyURLMapping: clarity-ticketing-dashboard
+    htmlElementName: clarity-ticketing-dashboard
+    instanceable: false
+    name: Clarity Ticketing Dashboard
+    portletCategoryName: category.client-extensions
+    properties:
+        defaultScreen: dashboard
+    type: customElement
+    urls:
+        - "*.js"
+    useESM: true
