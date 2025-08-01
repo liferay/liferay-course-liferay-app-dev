@@ -11,13 +11,13 @@ Here are some simple instructions to prepare your environment before the trainin
 1. Clone the repository to your computer.
 
     ```
-    git clone https://github.com/liferay/liferay-course-modern-app-dev.git
+    git clone https://github.com/liferay/liferay-course-liferay-app-dev.git
     ```
 
    Once cloned, navigate into the project's folder.
 
     ```
-    cd liferay-course-modern-app-dev
+    cd liferay-course-liferay-app-dev
     ```
 
 1. Perform a git fetch, a day before the training starts, to ensure you have the latest version.
@@ -41,7 +41,7 @@ Here are some simple instructions to prepare your environment before the trainin
 1. In the terminal, navigate to the root folder of the repository and run the following command.
 
     ```
-    cd liferay-course-modern-app-dev
+    cd liferay-course-liferay-app-dev
     ```
 
     ```
