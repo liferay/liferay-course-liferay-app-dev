@@ -1,0 +1,20 @@
+I have a simple but working React 18.3.1 app created with Vite and Yarn, and 
+all dependencies are properly declared and available, including the yarn setup.
+The app has an input field where the user types a name, a Greet button, and 
+below that it displays “Hello <name>” after clicking the button. 
+The App.jsx file defines the App component which implements the bulk of the 
+application, and the main.jsx file is responsible for rendering the App.
+I want to convert this app into a standard web component that I can use on any 
+HTML page.
+Please show me how to:
+	1.	Update the vite.config.js to build the app as a standard web component.
+	2.	Modify the main.jsx file to define and register a custom element that 
+	    uses the App component. Don't forget to include the logic for the 
+	    disconnect to clean up properly.
+	3.	Update or replace index.html so I can test the web component directly.
+I’m using React 18.3.1 (explicitly), Vite, and Yarn.
+I don’t need perfect styling or structure — just make the simplest working 
+version that can mount as a web component and work the same way. Also I want 
+to build it as a module in ESM format, and I'd like the custom tag to be 
+greet-ui.
+Please include all file changes and any commands I need to run.

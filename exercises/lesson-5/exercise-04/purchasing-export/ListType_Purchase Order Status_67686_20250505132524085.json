@@ -1,0 +1,64 @@
+{
+    "system": false,
+    "name_i18n": {
+        "en-US": "Purchase Order Status"
+    },
+    "name": "Purchase Order Status",
+    "listTypeEntries": [
+        {
+            "name_i18n": {
+                "en-US": "Approved"
+            },
+            "name": "Approved",
+            "type": "",
+            "key": "Approved",
+            "externalReferenceCode": "APPROVED"
+        },
+        {
+            "name_i18n": {
+                "en-US": "Pending"
+            },
+            "name": "Pending",
+            "type": "",
+            "key": "Pending",
+            "externalReferenceCode": "PENDING"
+        },
+        {
+            "name_i18n": {
+                "en-US": "Canceled"
+            },
+            "name": "Canceled",
+            "type": "",
+            "key": "Canceled",
+            "externalReferenceCode": "CANCELLED"
+        },
+        {
+            "name_i18n": {
+                "en-US": "Rejected"
+            },
+            "name": "Rejected",
+            "type": "",
+            "key": "Rejected",
+            "externalReferenceCode": "REJECTED"
+        },
+        {
+            "name_i18n": {
+                "en-US": "Completed"
+            },
+            "name": "Completed",
+            "type": "",
+            "key": "Completed",
+            "externalReferenceCode": "COMPLETED"
+        },
+        {
+            "name_i18n": {
+                "en-US": "Open"
+            },
+            "name": "Open",
+            "type": "",
+            "key": "Open",
+            "externalReferenceCode": "OPEN"
+        }
+    ],
+    "externalReferenceCode": "PURCHASE_ORDER_STATUS"
+}

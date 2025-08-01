@@ -1,0 +1,42 @@
+{
+  "businessType": "Sole Proprietorship",
+  "businessLegalName": "Neu Vue Optical",
+  "submittedBusinessEIN": "98-3423419",
+  "validatedBusinessEIN": "98-3423419",
+  "object": "business",
+  "keywords" : [
+   "specialty", "online_retailer", "wholesale_supplier"
+  ],
+  "people": [
+    {
+      "submitted": true,
+      "kyc": {
+        "result": {
+          "fields": "No risk detected"
+        },
+        "decision": "accept",
+        "object": "kyc_result"
+      },
+      "businessId": "63648",
+      "name": "Shelly Lee",
+      "object": "person"
+    }
+  ],
+  "review": {
+    "createdAt": "2025-04-24T16:53:45.576071819Z",
+    "completedAt": "2025-04-24T16:53:45.576105304Z",
+    "trace": "eced9c29-7e9a-465b-a010-9bce57b16caa",
+    "tasks": [
+      {
+        "name": "kyc",
+        "message": "No risks were found with the associated people",
+        "key": "kyc_decision"
+      }
+    ]
+  },
+  "kYCStatus": "Verified",
+  "kYCVerificationState": {
+          "key": "approved",
+          "name": "Approved"
+        }
+}

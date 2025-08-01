@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import '../style.css';
 
 // Ticket component
-const Ticket = null;
+const Ticket = null
 
 export default Ticket;

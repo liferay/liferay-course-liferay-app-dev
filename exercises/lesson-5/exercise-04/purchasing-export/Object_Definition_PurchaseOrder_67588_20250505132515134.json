@@ -1,0 +1,391 @@
+{
+    "enableComments": false,
+    "objectRelationships": [
+        {
+            "objectDefinitionSystem2": false,
+            "objectField": {
+                "relationshipType": "oneToMany",
+                "indexed": true,
+                "localized": false,
+                "objectRelationshipExternalReferenceCode": "d7278345-cfab-6e89-b710-27077b4466f4",
+                "objectFieldSettings": [
+                    {
+                        "name": "objectDefinition1ShortName",
+                        "value": "PurchaseOrder"
+                    },
+                    {
+                        "name": "objectRelationshipERCObjectFieldName",
+                        "value": "r_purchaseOrderToPurchaseOrderItems_c_purchaseOrderERC"
+                    }
+                ],
+                "readOnly": "false",
+                "DBType": "Long",
+                "label": {
+                    "en_US": "Purchase Order to Purchase Order Items"
+                },
+                "type": "Long",
+                "required": false,
+                "externalReferenceCode": "401cc080-54ca-6e81-ad0e-44dca3752e61",
+                "indexedAsKeyword": false,
+                "system": false,
+                "indexedLanguageId": "",
+                "unique": false,
+                "name": "r_purchaseOrderToPurchaseOrderItems_c_purchaseOrderId",
+                "objectDefinitionExternalReferenceCode1": "PURCHASE_ORDER",
+                "state": false,
+                "businessType": "Relationship",
+                "readOnlyConditionExpression": ""
+            },
+            "parameterObjectFieldName": "",
+            "parameterObjectFieldId": 0,
+            "label": {
+                "en_US": "Purchase Order to Purchase Order Items"
+            },
+            "reverse": false,
+            "type": "oneToMany",
+            "externalReferenceCode": "d7278345-cfab-6e89-b710-27077b4466f4",
+            "objectDefinitionModifiable2": true,
+            "system": false,
+            "name": "purchaseOrderToPurchaseOrderItems",
+            "objectDefinitionScope2": "company",
+            "deletionType": "prevent",
+            "objectDefinitionExternalReferenceCode1": "PURCHASE_ORDER",
+            "objectDefinitionExternalReferenceCode2": "ac7e84f5-4934-03f2-417b-3289d470c895",
+            "objectDefinitionName2": "PurchaseOrderItem"
+        }
+    ],
+    "objectFolderExternalReferenceCode": "PURCHASING",
+    "enableCategorization": true,
+    "accountEntryRestrictedObjectFieldName": "",
+    "className": "com.liferay.object.model.ObjectDefinition#U8D6",
+    "objectActions": [],
+    "enableLocalization": false,
+    "accountEntryRestricted": false,
+    "externalReferenceCode": "PURCHASE_ORDER",
+    "objectFields": [
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "String",
+            "label": {
+                "en_US": "Author"
+            },
+            "type": "String",
+            "required": false,
+            "externalReferenceCode": "fe6dbe3c-30ac-e8f3-9f78-75ecb05ca661",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "creator",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Date",
+            "label": {
+                "en_US": "Create Date"
+            },
+            "type": "Date",
+            "required": false,
+            "externalReferenceCode": "039bf901-ebb9-a6ec-c523-1b1f88086112",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "createDate",
+            "state": false,
+            "businessType": "Date",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "String",
+            "label": {
+                "en_US": "External Reference Code"
+            },
+            "type": "String",
+            "required": false,
+            "externalReferenceCode": "f0a72328-7400-84d9-fe25-fd797e9df887",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "externalReferenceCode",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Long",
+            "label": {
+                "en_US": "ID"
+            },
+            "type": "Long",
+            "required": false,
+            "externalReferenceCode": "865dda8b-79cf-09fe-95a2-532734933d05",
+            "indexedAsKeyword": true,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "id",
+            "state": false,
+            "businessType": "LongInteger",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Date",
+            "label": {
+                "en_US": "Modified Date"
+            },
+            "type": "Date",
+            "required": false,
+            "externalReferenceCode": "c5aae505-1879-d993-1ae6-5cda8f0850aa",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "modifiedDate",
+            "state": false,
+            "businessType": "Date",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Integer",
+            "label": {
+                "en_US": "Status"
+            },
+            "type": "Integer",
+            "required": false,
+            "externalReferenceCode": "adfd2db0-0db3-be6e-f571-5ffde139305a",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "status",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [
+                {
+                    "name": "uniqueValues",
+                    "value": true
+                }
+            ],
+            "readOnly": "false",
+            "DBType": "String",
+            "label": {
+                "en_US": "Purchase Order Number"
+            },
+            "type": "String",
+            "required": true,
+            "externalReferenceCode": "f543f0f4-c4d1-6adc-6b1f-5a62051288c4",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "en_US",
+            "unique": true,
+            "name": "purchaseOrderNumber",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "Date",
+            "label": {
+                "en_US": "Purchase Order Date"
+            },
+            "type": "Date",
+            "required": true,
+            "externalReferenceCode": "cbbab15c-93d6-b6c8-7422-da5b8fa20de5",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "purchaseOrderDate",
+            "state": false,
+            "businessType": "Date",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "localized": false,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "String",
+            "label": {
+                "en_US": "Vendor Name"
+            },
+            "type": "String",
+            "required": true,
+            "externalReferenceCode": "502db961-18b2-f28c-8cc0-7c0fdf1a8e21",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "en_US",
+            "unique": false,
+            "name": "vendorName",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "listTypeDefinitionExternalReferenceCode": "PURCHASE_ORDER_STATUS",
+            "indexed": true,
+            "defaultValue": "Open",
+            "localized": false,
+            "objectFieldSettings": [
+                {
+                    "name": "stateFlow",
+                    "value": {
+                        "objectStates": [
+                            {
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "Completed"
+                                    }
+                                ],
+                                "key": "Approved"
+                            },
+                            {
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "Approved"
+                                    },
+                                    {
+                                        "key": "Canceled"
+                                    },
+                                    {
+                                        "key": "Rejected"
+                                    },
+                                    {
+                                        "key": "Open"
+                                    }
+                                ],
+                                "key": "Pending"
+                            },
+                            {
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "Open"
+                                    }
+                                ],
+                                "key": "Canceled"
+                            },
+                            {
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "Open"
+                                    }
+                                ],
+                                "key": "Rejected"
+                            },
+                            {
+                                "objectStateTransitions": [],
+                                "key": "Completed"
+                            },
+                            {
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "Pending"
+                                    },
+                                    {
+                                        "key": "Canceled"
+                                    }
+                                ],
+                                "key": "Open"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "defaultValueType",
+                    "value": "inputAsValue"
+                },
+                {
+                    "name": "defaultValue",
+                    "value": "Open"
+                }
+            ],
+            "readOnly": "false",
+            "DBType": "String",
+            "label": {
+                "en_US": "Purchase Order Status"
+            },
+            "type": "String",
+            "required": true,
+            "externalReferenceCode": "4a8cd6d2-bc76-cf80-429f-900abe4962e6",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "en_US",
+            "unique": false,
+            "name": "purchaseOrderStatus",
+            "state": true,
+            "businessType": "Picklist",
+            "readOnlyConditionExpression": ""
+        }
+    ],
+    "restContextPath": "/o/c/purchaseorders",
+    "scope": "company",
+    "portlet": true,
+    "modifiable": true,
+    "parameterRequired": false,
+    "enableObjectEntryHistory": false,
+    "titleObjectFieldName": "purchaseOrderNumber",
+    "objectValidationRules": [],
+    "active": true,
+    "defaultLanguageId": "en_US",
+    "enableIndexSearch": true,
+    "label": {
+        "en_US": "Purchase Order"
+    },
+    "panelCategoryKey": "applications_menu.applications.custom.apps",
+    "pluralLabel": {
+        "en_US": "Purchase Orders"
+    },
+    "objectLayouts": [],
+    "system": false,
+    "objectViews": [],
+    "enableObjectEntryDraft": true,
+    "name": "PurchaseOrder",
+    "actions": {
+        "permissions": {},
+        "get": {},
+        "update": {},
+        "delete": {},
+        "exportObjectDefinition": {}
+    },
+    "status": {
+        "label_i18n": "Approved",
+        "code": 0,
+        "label": "approved"
+    }
+}
