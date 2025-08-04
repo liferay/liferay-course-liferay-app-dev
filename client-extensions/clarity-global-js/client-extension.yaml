@@ -1,0 +1,11 @@
+assemble:
+    - from: build/buildTheme/img
+      into: static/img
+    - from: assets
+      into: static
+    - from: build/static
+      into: static
+clarity-global-js:
+    name: Clarity Global JS
+    type: globalJS
+    url: global.*.js
