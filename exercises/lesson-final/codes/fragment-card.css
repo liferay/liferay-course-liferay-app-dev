@@ -1,0 +1,22 @@
+.card {
+    background-color: #f8f8f8;
+}
+
+.rounded-corners {
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+}
+
+
+.download-button {
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+.download-button:hover {
+    color: #fff;
+}

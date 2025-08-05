@@ -1,0 +1,38 @@
+{
+			"frontendTokenSets": [
+				{
+					"frontendTokens": [
+							{
+								"defaultValue": "#1D8C8C",
+								"editorType": "ColorPicker",
+								"label": "Download Button Background",
+								"mappings": [
+									{
+										"type": "cssVariable",
+										"value": "button-download-background"
+									}
+								],
+								"name": "downloadButtonBackground",
+								"type": "String"
+							},
+						{
+							"defaultValue": "var(--color-neutral-5)",
+							"editorType": "ColorPicker",
+							"label": "Body Secondary Background",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "body-secondary-background"
+								}
+							],
+							"name": "bodySecondaryBackground",
+							"type": "String"
+						}
+					],
+					"label": "Retailer Access Styles",
+					"name": "retailer-access-styles"
+					}
+				],
+				"label": "Clarity Retailer Access Styles",
+				"name": "clarity-retailer-access-styles"
+		}
