@@ -1,8 +1,0 @@
-{
-  "businessLegalName": "Eye Spy LLC",
-  "businessType": "Limited Liability Company",
-  "creditScore": 85,
-  "creditRiskLevel": "Low",
-  "verificationStatus": "Completed",
-  "validatedBusinessEIN": "32-4953459"
-}

@@ -1,5 +1,0 @@
-{
-  "priority":  {
-    "key": "major"
-  }
-}

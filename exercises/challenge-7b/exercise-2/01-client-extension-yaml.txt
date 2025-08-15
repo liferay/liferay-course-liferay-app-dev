@@ -1,0 +1,12 @@
+assemble:
+    - from: build/vite
+      into: static
+greet-ui:
+    friendlyURLMapping: greet-ui
+    htmlElementName: greet-ui
+    instanceable: false
+    name: Greet UI
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - assets/*.js

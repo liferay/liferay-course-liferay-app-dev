@@ -1,0 +1,7 @@
+clarity-distributor-mgmt-action-oauth-application-user-agent:
+    .serviceAddress: localhost:58081
+    .serviceScheme: http
+    name: Clarity Distributor Mgmt Action OAuth Application User Agent
+    scopes:
+        - Liferay.Headless.Admin.User.everything
+    type: oAuthApplicationUserAgent
