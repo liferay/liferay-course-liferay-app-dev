@@ -1,0 +1,14 @@
+assemble:
+    - fromTask: bootJar
+clarity-distributor-mgmt-action-oauth-application-user-agent:
+    .serviceAddress: localhost:58081
+    .serviceScheme: http
+    name: Clarity Distributor Mgmt Action OAuth Application User Agent
+    scopes:
+        - Liferay.Headless.Admin.User.everything
+    type: oAuthApplicationUserAgent
+clarity-distributor-mgmt-create-account-action:
+    name: Clarity Distributor Mgmt Create Account Action
+    oAuth2ApplicationExternalReferenceCode: clarity-distributor-mgmt-action-oauth-application-user-agent
+    resourcePath: /object/action/account
+    type: objectAction
