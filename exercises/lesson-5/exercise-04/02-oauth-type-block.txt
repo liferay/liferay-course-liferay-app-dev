@@ -1,9 +1,0 @@
-clarity-purchasing-batch-oauth-application-headless-server:
-    .serviceAddress: localhost:8080
-    .serviceScheme: http
-    name: Clarity Purchasing OAuth Application Headless Server
-    scopes:
-        -   Liferay.Headless.Admin.List.Type.everything
-        -   Liferay.Headless.Batch.Engine.everything
-        -   Liferay.Object.Admin.REST.everything
-    type: oAuthApplicationHeadlessServer

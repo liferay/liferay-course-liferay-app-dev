@@ -1,5 +1,0 @@
-{
-  "attributes": {
-    "search.empty.search": "true"
-  }
-}

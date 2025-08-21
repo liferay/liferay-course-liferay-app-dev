@@ -1,0 +1,5 @@
+{!relatedTickets?.length && (
+	<div className="font-weight-normal text-neutral-9 text-paragraph-sm">
+		No tickets are available.
+	</div>
+)}

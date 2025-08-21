@@ -1,4 +1,0 @@
-clarity-purchasing-batch:
-    name: Clarity Purchasing Batch
-    oAuthApplicationHeadlessServer: clarity-purchasing-batch-oauth-application-headless-server
-    type: batch

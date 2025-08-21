@@ -1,0 +1,13 @@
+{
+    "name": "Purchasing",
+    "label": {
+        "en_US": "Purchasing"
+    },
+    "actions": {
+        "permissions": {},
+        "get": {},
+        "update": {},
+        "delete": {}
+    },
+    "externalReferenceCode": "PURCHASING"
+}

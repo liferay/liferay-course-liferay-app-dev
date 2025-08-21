@@ -1,0 +1,7 @@
+[
+  {
+    "contributorName": "basic",
+    "displayGroupName": "suggestions",
+    "size": 5
+  }
+]
