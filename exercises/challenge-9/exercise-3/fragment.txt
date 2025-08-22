@@ -5,11 +5,11 @@
 		<div class="d-flex flex-column align-items-center c-gapy-3 bg-light p-3 rounded-lg w-100">
 			<input type="hidden" name="file-upload-status" value="2">
 
-			<div class="position-relative">
-				<div class="d-flex flex-row align-items-center">
+			<div class="position-relative w-100">
+				<div class="d-flex flex-row align-items-center justify-content-center">
 					<button class="btn btn-outline-primary text-nowrap" id="${fragmentEntryLinkNamespace}-file-upload-button" type="button">[@clay.icon className="text-primary" symbol="upload" /] Browse File</button>
 
-					<span class="form-control ml-1" id="${fragmentEntryLinkNamespace}-file-chosen">No file chosen</span>
+					<span class="form-control text-truncate ml-1 w-auto" id="${fragmentEntryLinkNamespace}-file-chosen">No file chosen</span>
 				</div>
 
 				<input id="${fragmentEntryLinkNamespace}-file-upload-input-hidden" name="file-upload-input-hidden" type="hidden" value="${input.value!}" />
