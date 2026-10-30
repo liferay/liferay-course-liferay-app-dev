@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<license>
+	<account-name>Liferay Inc Training</account-name>
+	<owner>Liferay Training</owner>
+	<description>Liferay Training</description>
+	<product-name>DXP Development</product-name>
+	<product-version>7.4</product-version>
+	<license-name>DXP Development</license-name>
+	<license-type>developer</license-type>
+	<license-version>6</license-version>
+	<start-date>Thursday, January 1, 2026 12:00:00 AM GMT</start-date>
+	<expiration-date>Thursday, July 1, 2027 12:00:00 AM GMT</expiration-date>
+	<max-http-sessions>5</max-http-sessions>
+	<instance-size>Sizing 4</instance-size>
+	<key>197d5ca97eafcc897b523f9b1503d50acf6d5361d782bb023d5e0cab1fc993022f08aea89e76c910e8df14a236673cfcff3f336fc432105873ae3b704f942590d8e5e4cba569ab0be660ec18dabb597259b3e7d6fcc1abdb5c306c804acc68448fc54149e351c5e9adb3ad878a0796c39ce36aafe7f2acde84d503b10e8037aee7c75568</key>
+</license>
