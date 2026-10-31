@@ -1,0 +1,8 @@
+{
+  "attachment" : "%BASE64-PLACEHOLDER%",
+  "externalReferenceCode": "FLYERAVIATOR",
+  "priority": 10,
+  "title": {
+    "en_US": "Classic Aviator Flyer"
+  }
+}
